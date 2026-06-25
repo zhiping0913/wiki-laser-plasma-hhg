@@ -36,3 +36,20 @@
 - BGP and CSE conditions are mathematically equivalent
 - Sources: 陈自宇 Note §0.4.5
 - Confidence: high
+
+## [2026-06-25] ingest | Edwards Thesis (Princeton 2019, advisor Mikhailova)
+- Read: thesis.md Ch 4 (Theory and Scaling) + Ch 5 (Waveform Engineering), lines 1607-2207
+- Key NEW insights beyond 陈自宇/张玉雪:
+  * p is NOT universal: p ∝ ln(S), range >6 to <2 (depends on a₀/N)
+  * Bunch width limits effective cutoff: ω_b = λ/(2Δ), not γ³
+  * Thin foils: n^{-10/3} (individual n^{-4/3} + ω^{-2} from bunch)
+  * Optimal efficiency at a₀/N ≈ 0.2-0.5
+  * Two-color enhancement: 5% SH → 10× attosecond intensity
+  * Secondary attosecond pulses at ~plasma period delay
+  * CEP controls attosecond envelope for few-cycle pulses
+  * Similarity theory confirmed for HHG: p ≈ 1.5 ln(a₀/N) for a₀/√N > 2
+  * γ ∝ a₀ at fixed a₀/N (similarity theory)
+  * x_disp ∝ a₀/N (surface displacement)
+- Also searched Mikhailova papers in KB: ~55 papers found (2005-2024)
+- Source: /home/zhiping/knowledge_base/thesis/2019/2019--Ultrafast Sources of Intense Radiation/thesis.md
+- Status: reading complete for HHG chapters (4,5), wiki pages not yet created
