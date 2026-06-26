@@ -43,7 +43,7 @@ The radiation condition for coherent synchrotron emission:
 
 **v_∥ → max; a_∥ → 0; v_⊥ → 0; a_⊥ → max**
 
-— Mikhailova et al., PRL 109, 245005 (2012)
+— doi: 10.1103/PhysRevLett.109.245005
   "The radiation is emitted when the electron velocity reaches its maximum and the transverse acceleration is at its peak, satisfying the conditions for coherent synchrotron emission."
 
 ## Equivalence Proof
@@ -75,8 +75,12 @@ Not ω_max ∝ γ² (simple Doppler reflection).
   "The spectrum includes the power-law part I_n ∝ n^{-8/3} for n < √(8α)γ³_max... The cutoff at ∝γ³_max is parametrically larger than the 4γ²_max predicted by the simple oscillating mirror model based on the Doppler effect."
 
 **Original papers**:
-- S. Gordienko, A. Pukhov, O. Shorokhov, and T. Baeva, PRL 93, 115002 (2004) [γ² prediction]
-- T. Baeva, S. Gordienko, and A. Pukhov, PRE 74, 046404 (2006) [γ³ prediction, confirmed]
+— doi: 10.1103/PhysRevLett.93.115002
+  [KB: /home/zhiping/knowledge_base/paper/2004/2004--Relativistic Doppler Effect_ Universal Spectra and Zeptosecond Pulses]
+  [γ² prediction]
+— doi: 10.1103/PhysRevE.74.046404
+  [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
+  [γ³ prediction, confirmed]
 
 ## Difference Between BGP and CSE
 
@@ -96,7 +100,7 @@ Therefore, CSE produces stronger harmonics than BGP when nanobunches form.
 
 PIC simulations show that HHG emission occurs only when the synchrotron radiation condition is satisfied. Not every oscillation produces efficient HHG — only those where v_∥ → max and a_⊥ → max simultaneously.
 
-— Mikhailova et al., PRL 109, 245005 (2012)
+— doi: 10.1103/PhysRevLett.109.245005
   "Our analysis demonstrates that the attosecond pulse generation is governed by the formation of dense electron bunches that undergo coherent synchrotron radiation when the transverse acceleration is maximized."
 
 **Key experimental verification**:

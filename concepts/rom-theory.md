@@ -49,7 +49,7 @@ sources:
 
 When an intense laser (I₀ ≥ 10¹⁸ W/cm², a₀ ≥ 1) hits a solid-density plasma target, the surface electrons oscillate at near-relativistic velocities under the combined action of the laser ponderomotive force and the ion electrostatic restoring force. This oscillating electron layer acts as a mirror that reflects the incident laser. Due to relativistic Doppler effect, the reflected light is frequency-upshifted, producing high-order harmonics.
 
-— Baeva et al., Phys. Rev. E 74, 046404 (2006)
+— — doi: 10.1103/PhysRevE.74.046404
   [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
   §II: "The electrons are driven by the laser-light pressure; a restoring electrostatic force comes from the ions. As a consequence, the plasma surface oscillates and the electrons gain a normal momentum component."
 
@@ -83,7 +83,7 @@ von der Linde and Rzązewski assumed simple harmonic oscillation for the mirror,
 
 Gordienko (Landau Institute, visiting Pukhov at HHU Düsseldorf) used asymptotic analysis (steepest descent method) on the boundary conditions. Found: I_n ∝ n^{-5/2}, cutoff at ω_max = 4γ²_max ω_L.
 
-— Gordienko et al., Phys. Rev. Lett. 93, 115002 (2004)
+— — doi: 10.1103/PhysRevLett.93.115002
   [KB: /home/zhiping/knowledge_base/paper/2004/2004--Relativistic Doppler Effect_ Universal Spectra and Zeptosecond Pulses]
   Abstract: "We present a universal analytic theory of high-order harmonic generation... The spectrum follows the power law I_n ∝ n^{-5/2}... The cutoff frequency is ω_max = 4γ²_max ω₀."
 
@@ -99,7 +99,7 @@ Gordienko and Pukhov derived scaling laws from Vlasov-Maxwell equations: the dyn
 
 Baeva applied the similarity theory to Gordienko's approach and found a critical difference: while the velocity v_x(t) is smooth, the γ-factor shows sharp spikes when v_⊥ → 0 and v_∥ → max.
 
-— Baeva et al., Phys. Rev. E 74, 046404 (2006)
+— — doi: 10.1103/PhysRevE.74.046404
   [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
   Abstract: "The spectrum includes the power-law part I_n ∝ n^{-8/3} for n < √(8α)γ³_max, followed by exponential decay. Here γ_max is the largest relativistic γ factor of the plasma surface."
 
@@ -109,7 +109,7 @@ Baeva applied the similarity theory to Gordienko's approach and found a critical
 
 The foundation of BGP theory: at the Apparent Reflection Point (ARP), the total field vanishes.
 
-— Baeva et al., Phys. Rev. E 74, 046404 (2006)
+— — doi: 10.1103/PhysRevE.74.046404
   [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
   §IV: "The boundary condition expresses energy conservation... The electric field vanishes at the instantaneous position of the apparent reflection point."
 
@@ -117,7 +117,7 @@ The foundation of BGP theory: at the Apparent Reflection Point (ARP), the total 
 
 The key new physical phenomenon: the γ-factor of the plasma surface shows sharp spikes at times when the surface velocity approaches c.
 
-— Baeva et al., Phys. Rev. E 74, 046404 (2006)
+— — doi: 10.1103/PhysRevE.74.046404
   [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
   §II: "The γ factor of the surface γ_s also shows specific behavior. It has sharp peaks at those times when the velocity of the surface approaches c... These spikes define the high-order harmonic spectrum and lead to attosecond pulses in the reflected radiation."
 
@@ -129,7 +129,7 @@ The spectrum follows:
 
 The cutoff at **√(8α)γ³_max** is parametrically larger than the 4γ²_max predicted by the simple oscillating mirror model.
 
-— Baeva et al., Phys. Rev. E 74, 046404 (2006)
+— — doi: 10.1103/PhysRevE.74.046404
   [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
   §VII: "The γ³ scaling of the spectrum cutoff is readily understood using the relativistic γ-factor spikes of the plasma-surface motion."
 
@@ -139,7 +139,7 @@ The cutoff at **√(8α)γ³_max** is parametrically larger than the 4γ²_max p
 
 Dromey et al. (Queen's University Belfast) at the Vulcan laser facility: measured exponent = -2.5(+0.2, -0.3), consistent with both Gordienko's n^{-5/2} and Baeva's n^{-8/3}.
 
-— Dromey et al., Nat. Phys. 2, 456 (2006)
+— — doi: 10.1038/nphys338
   [KB: /home/zhiping/knowledge_base/paper/2006/2006--High harmonic generation in the relativistic limit]
   (Full paper read — first experimental verification of power-law scaling)
 
@@ -147,7 +147,7 @@ Dromey et al. (Queen's University Belfast) at the Vulcan laser facility: measure
 
 Dromey et al.: cutoff clearly follows γ³, not 4γ². This confirmed Baeva (BGP) over Gordienko.
 
-— Dromey et al., Phys. Rev. Lett. 99, 085001 (2007)
+— — doi: 10.1103/PhysRevLett.99.085001
   [KB: /home/zhiping/knowledge_base/paper/2007/2007--Bright Multi-keV Harmonic Generation from Relativistically Oscillating Plasma Surfaces]
   (Full paper read — cutoff at √8α·γ³ confirmed experimentally)
 
@@ -157,7 +157,7 @@ Dromey et al.: cutoff clearly follows γ³, not 4γ². This confirmed Baeva (BGP
 
 The Leontovich condition holds in most parameter regimes because the reflected field amplitude is not strongly modified — only phase-modulated.
 
-— Baeva et al., Phys. Rev. E 74, 046404 (2006)
+— — doi: 10.1103/PhysRevE.74.046404
   [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
   §II: "The qualitative behavior of v_s and γ_s is universal, and since it governs the HHG, the spectrum of the high-order harmonics does not depend on the particular surface motion."
 
@@ -165,7 +165,7 @@ The Leontovich condition holds in most parameter regimes because the reflected f
 
 The saddle-point analysis reveals that HHG radiation is most efficient when γ_∥ → max and p_⊥ → 0.
 
-— Baeva et al., Phys. Rev. E 74, 046404 (2006)
+— — doi: 10.1103/PhysRevE.74.046404
   [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
   §VII: "The γ³ scaling of the spectrum cutoff is readily understood using the relativistic γ-factor spikes... the plasma-surface velocity in the vicinity of a maximum can be approximated as a parabola."
 
@@ -185,7 +185,7 @@ The saddle-point analysis reveals that HHG radiation is most efficient when γ_�
 
 ROM should be understood as a **physical framework**, not a single mechanism. The early understanding, BGP's γ-spike model, and CSE are all manifestations of "relativistic oscillating mirror reflecting laser to produce harmonics." They differ in how the mirror moves, its density distribution, and velocity/acceleration characteristics.
 
-— Baeva et al., Phys. Rev. E 74, 046404 (2006)
+— — doi: 10.1103/PhysRevE.74.046404
   [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
   §II: "High-order harmonics are generated due to sharp spikes in the relativistic γ factor of the plasma surface. This new physical phenomenon leads to the spectrum cutoff at the harmonic number n_cutoff = √(8α)γ³_max."
 

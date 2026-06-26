@@ -30,8 +30,8 @@ The reflected harmonic spectrum from relativistic laser-plasma HHG generally fol
 
 | Model | Year | p value | Cutoff | Original Paper |
 |-------|------|---------|--------|----------------|
-| Gordienko OMM | 2004 | 5/2 (quasimonochromatic), 3 (broadband) | ∝ γ² | Gordienko et al., PRL 93, 115002 (2004) |
-| Baeva BGP | 2006 | **8/3** | √8α · γ³ | Baeva et al., PRE 74, 046404 (2006) |
+| Gordienko OMM | 2004 | 5/2 (quasimonochromatic), 3 (broadband) | ∝ γ² | — doi: 10.1103/PhysRevLett.93.115002 |
+| Baeva BGP | 2006 | **8/3** | √8α · γ³ | — doi: 10.1103/PhysRevE.74.046404 |
 | CSE model | 2010 | **4/3** | √8α · γ³ | an der Brügge & Pukhov, Phys. Plasmas 17, 033110 (2010) |
 | Thin-foil (Edwards) | 2019 | **10/3** | bunch-width limited | — doi: 10.1103/PhysRevLett.124.185004 |
 
