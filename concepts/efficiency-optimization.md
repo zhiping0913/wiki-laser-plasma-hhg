@@ -78,7 +78,7 @@ Despite theoretical predictions, experiments could not achieve:
 - **Perfect agreement with 2D PIC simulations**
 - n^{-8/3} scaling verified experimentally
 
-— Timmis et al., Nature (2026) [KB: .../paper.md, section 1]
+— doi: 10.1038/s41586-026-10400-2 [KB: .../paper.md, section 1]
   "the first experimental verification of theoretical maximum HHG efficiency"
 
 ### Additional Control: Prepulse Timing
@@ -86,7 +86,7 @@ Despite theoretical predictions, experiments could not achieve:
 - Narrow optimization window (~50 fs)
 - Demonstrates tightly defined optimal laser-plasma coupling
 
-— Timmis et al. (2026) [KB: .../paper.md, section 2]
+— doi: 10.1038/s41586-026-10400-2 [KB: .../paper.md, section 2]
   "a narrow window (about 50 fs) within which the optimum sits"
 
 ## Key Factors for Efficiency
@@ -111,7 +111,7 @@ Despite theoretical predictions, experiments could not achieve:
 - **Too thin**: Target breaks before peak
 - **Too thick**: Laser field cancels at surface
 
-— Xu et al., NJP 21, 103013 (2019) [KB: .../paper.md, section 2]
+— doi: 10.1088/1367-2630/ab4622 [KB: .../paper.md, section 2]
   "the optimum parametric region is acquired where a₀, n_e and d₀ satisfy the relation"
 
 ### 5. Angle of Incidence
@@ -124,7 +124,7 @@ Despite theoretical predictions, experiments could not achieve:
 - **100× enhancement** in transmitted energy
 - **Enhanced harmonics** via SPW excitation
 
-— Pan et al., HPLSE 7, e36 (2019) [KB: .../paper.md]
+— doi: 10.1017/hpl.2019.20 [KB: .../paper.md]
   "the transmitted laser energy behind the pre-structured target is increased by about two orders of magnitude"
 
 ## Optimization Strategies
@@ -158,7 +158,7 @@ Despite theoretical predictions, experiments could not achieve:
 - Control wavefronts while maintaining efficiency
 - Practical CHF implementation
 
-— Timmis et al. (2026) [KB: .../paper.md, abstract]
+— doi: 10.1038/s41586-026-10400-2 [KB: .../paper.md, abstract]
   "the path to realizing extreme optical field strengths approaching the Schwinger limit is now open"
 
 ## Efficiency Comparison

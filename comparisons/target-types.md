@@ -96,7 +96,7 @@ The characteristic parameter S·D describes effective thickness:
 
 For S·D < 0.1: efficiency curves collapse onto single line.
 
-— Edwards et al. 2020 [KB: .../paper.md]
+— doi: 10.1103/PhysRevLett.124.185004 [KB: .../paper.md]
   "for S · D < 0.1, the efficiency curves collapse onto a single line"
 
 ## Double Foil Targets
@@ -138,7 +138,7 @@ For S·D < 0.1: efficiency curves collapse onto single line.
 5. Single attosecond pulse emitted
 6. Nanobunch disperses when hitting second foil
 
-— Xu et al. 2018 [KB: .../paper.md]
+— doi: 10.1088/1361-6587/aaa57d [KB: .../paper.md]
   "the dense electron nanobunch is formed by the electrons blown out from the first ultrathin foil"
 
 ## Pre-Structured Targets
@@ -167,7 +167,7 @@ For S·D < 0.1: efficiency curves collapse onto single line.
 - Limited to specific geometries
 - Not yet widely demonstrated
 
-— Pan et al. 2019 [KB: .../paper.md]
+— doi: 10.1017/hpl.2019.20 [KB: .../paper.md]
   "the transmitted laser energy behind the pre-structured target is increased by about two orders of magnitude"
 
 ## Comparison Summary

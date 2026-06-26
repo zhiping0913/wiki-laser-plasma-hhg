@@ -39,7 +39,7 @@ where:
 
 **Maximum laser duration**: N_max ≈ θ₀/θ_n
 
-— Kallala, Quéré, Vincenti, PRR 2, 043007 (2020) [KB: .../paper.md, section I]
+— doi: 10.1103/PhysRevResearch.2.043007 [KB: .../paper.md, section I]
   "consists in imprinting different propagation directions to successive attosecond pulses of the train, and then spatially filtering one pulse in the far field"
 
 ## Challenge in Relativistic Regime
@@ -58,7 +58,7 @@ For optimal HHG conditions (L ≈ λ₀/20 - λ₀/8):
 
 This severely limits the attosecond lighthouse in the ROM regime.
 
-— Kallala et al. (2020) [KB: .../paper.md, section II]
+— doi: 10.1103/PhysRevResearch.2.043007 [KB: .../paper.md, section II]
   "generating isolated attosecond pulses with the lighthouse effect in laser-plasma conditions that are optimal for Doppler harmonic generation is very challenging"
 
 ## Solution 1: Wavefront Curvature Compensation
@@ -78,7 +78,7 @@ This severely limits the attosecond lighthouse in the ROM regime.
 - Harmonic divergence significantly reduced
 - Lighthouse effect becomes viable for multi-cycle pulses
 
-— Kallala et al. (2020) [KB: .../paper.md, section III]
+— doi: 10.1103/PhysRevResearch.2.043007 [KB: .../paper.md, section III]
   "placing the PM slightly away from the laser best focus, so that the incident laser wavefronts are curved and compensate for the wavefront curvature induced by the PM"
 
 ## Solution 2: Amplitude Profile Tailoring
@@ -104,7 +104,7 @@ This severely limits the attosecond lighthouse in the ROM regime.
 - **10 TW peak power** in XUV range
 - Validates both techniques
 
-— Kallala et al. (2020) [KB: .../paper.md, section V]
+— doi: 10.1103/PhysRevResearch.2.043007 [KB: .../paper.md, section V]
   "isolated attosecond pulses with 10 TW peak power in the XUV range can be generated with PW-class lasers"
 
 ## Comparison with Other Isolation Techniques

@@ -30,7 +30,7 @@ The double-foil target (DFT) scheme enables efficient coherent synchrotron emiss
 
 4. **Single pulse generation**: After the main attosecond pulse, the nanobunch disperses when it hits the second foil, terminating CSE
 
-— Xu et al., PPCF 60, 045005 (2018) [KB: .../paper.md, section 2]
+— doi: 10.1088/1361-6587/aaa57d [KB: .../paper.md, section 2]
   "the dense electron nanobunch is formed by the electrons blown out from the first ultrathin foil, which is accelerated more efficiently through the vacuum gap between two foils"
 
 ## Optimal Conditions
@@ -50,7 +50,7 @@ The double-foil target (DFT) scheme enables efficient coherent synchrotron emiss
 - **Thickness**: Thick enough to survive the interaction
 - **Role**: Reflects penetrated laser, shields nanobunch after emission
 
-— Xu et al. (2018) [KB: .../paper.md, section 2]
+— doi: 10.1088/1361-6587/aaa57d [KB: .../paper.md, section 2]
   "the gap width to be < 0.25λ, which approximately corresponds to the time duration when the laser Lorentz force is greater than the nearly constant E_s"
 
 ## Simulation Results (1D PIC)
@@ -70,7 +70,7 @@ The double-foil target (DFT) scheme enables efficient coherent synchrotron emiss
 - Exceeds 2000ω₀ (much higher than SFT case)
 - Enables keV photon energies
 
-— Xu et al. (2018) [KB: .../paper.md, section 3]
+— doi: 10.1088/1361-6587/aaa57d [KB: .../paper.md, section 3]
   "a single attosecond pulse with duration of 18 as, photon energy > 0.16 keV and peak intensity of 1.7 × 10²⁰ W/cm²"
 
 ## Robustness
@@ -96,7 +96,7 @@ The double-foil target (DFT) scheme enables efficient coherent synchrotron emiss
 - Duration increases to 44 as (due to transverse effects)
 - Still much more intense than SFT case
 
-— Xu et al. (2018) [KB: .../paper.md, section 4]
+— doi: 10.1088/1361-6587/aaa57d [KB: .../paper.md, section 4]
   "intense single attosecond pulses can be efficiently generated through a wide range of parameters"
 
 ## Advantages over Single-Foil Target
@@ -116,7 +116,7 @@ The double-foil target (DFT) scheme enables efficient coherent synchrotron emiss
 3. **Target fabrication**: Nanometer-scale foils with precise spacing
 4. **Alignment**: Both foils must be properly aligned
 
-— Xu et al. (2018) [KB: .../paper.md, section 5]
+— doi: 10.1088/1361-6587/aaa57d [KB: .../paper.md, section 5]
   "the small distance required between two foils in the DFT case is still challenging for many laboratories"
 
 ## Related Work
@@ -127,7 +127,7 @@ The double-foil target (DFT) scheme enables efficient coherent synchrotron emiss
 - Frequency upshift from 800 nm to ~60 nm
 - Efficiency > 10⁴ times higher than incoherent scattering
 
-— Kiefer et al., Nat. Commun. 4, 1763 (2013) [KB: .../paper.md, abstract]
+— doi: 10.1038/ncomms2775 [KB: .../paper.md, abstract]
   "dense relativistic electron mirrors can be created from the interaction of a high-intensity laser pulse with a freestanding, nanometre-scale thin foil"
 
 ## Links

@@ -57,7 +57,7 @@ With current/pnear-future laser systems:
 - With next-generation PW lasers: I ~ 10²⁶-10²⁸ W/cm²
 - Ultimate limit: approaches Schwinger with sufficient energy
 
-— Hörlein et al., EPJD (2009) [KB: .../paper.md, abstract]
+— doi: 10.1140/epjd/e2009-00084-x [KB: .../paper.md, abstract]
   "pave the way for unique experiments exploring the nonlinear properties of vacuum on ultra-fast timescales"
 
 ## Key Challenges
@@ -68,7 +68,7 @@ The harmonic wavefronts must be precisely controlled for tight focusing:
 - Density gradients introduce aberrations
 - Pre-shaped targets can correct wavefronts
 
-— Hörlein et al. (2009) [KB: .../paper.md, abstract]
+— doi: 10.1140/epjd/e2009-00084-x [KB: .../paper.md, abstract]
   "precise control of the wavefronts and thus the focusability of the generated harmonics is possible with pre-shaped targets"
 
 ### 2. Conversion efficiency
