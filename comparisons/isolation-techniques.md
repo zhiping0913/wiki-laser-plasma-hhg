@@ -4,6 +4,27 @@ created: 2026-06-25
 updated: 2026-06-25
 type: comparison
 tags: [attosecond, isolation, gating, comparison]
+sources:
+  - path: /home/zhiping/knowledge_base/thesis/2012/2012--Relativistic Laser Plasma Interaction A Novel Route to Intense, Single Attosecond Pulses
+    doi: null (PhD thesis, MPQ/LMU 2012)
+    read: true
+    sections: [3, 4, 5]
+  - path: /home/zhiping/knowledge_base/paper/2020/2020--Techniques to generate intense isolated attosecond pulses from relativistic plasma mirrors
+    doi: 10.1103/PhysRevResearch.2.043007
+    read: true
+    sections: [I-V]
+  - path: /home/zhiping/knowledge_base/paper/2025/2025--Isolated attosecond pulses generated from a relativistic plasma mirror via noncollinear gating
+    doi: 10.1103/PhysRevResearch.7.013216
+    read: true
+    sections: [I-II]
+  - path: /home/zhiping/knowledge_base/paper/2022/2022--Divergence gating towards far-field isolated attosecond pulses
+    doi: 10.1088/1367-2630/ac59ec
+    read: true
+    sections: [1-2]
+  - path: /home/zhiping/knowledge_base/paper/2018/2018--Coherent synchrotron emission in transmission with double foil target
+    doi: 10.1088/1361-6587/aaa57d
+    read: true
+    sections: [1-5]
 ---
 
 # Isolation Techniques Comparison
@@ -30,7 +51,11 @@ Generating isolated attosecond pulses (IAPs) from relativistic HHG is critical f
 - Maximum power ~1 TW for near-single-cycle
 - Limited to low a₀ (~1)
 
-**Key Paper**: Heissler 2012 thesis (MPQ)
+— Heissler, PhD thesis, MPQ/LMU (2012)
+  [KB: /home/zhiping/knowledge_base/thesis/2012/2012--Relativistic Laser Plasma Interaction A Novel Route to Intense, Single Attosecond Pulses]
+  §4: First demonstration of HHG with few-cycle driving laser (LWS-20), isolated attosecond pulses observed
+  §5: Measured high conversion efficiency and small divergence of relativistic harmonics
+  §6: First nonlinear process (two-photon ATI of Argon) using solid-surface harmonics
 
 ### 2. Polarization Gating
 
@@ -64,10 +89,12 @@ Generating isolated attosecond pulses (IAPs) from relativistic HHG is critical f
 - Would require single-cycle pulses
 
 **Solutions Proposed**:
-1. Wavefront curvature compensation (Kallala 2020)
-2. Amplitude profile tailoring (Kallala 2020)
+1. Wavefront curvature compensation
+2. Amplitude profile tailoring
 
-**Key Paper**: Kallala, Quéré, Vincenti, PRR 2, 043007 (2020)
+— Kallala, Quéré, Vincenti, Phys. Rev. Research 2, 043007 (2020)
+  [KB: /home/zhiping/knowledge_base/paper/2020/2020--Techniques to generate intense isolated attosecond pulses from relativistic plasma mirrors]
+  (Full paper read — two techniques to reduce harmonic divergence for lighthouse effect)
 
 ### 4. Noncollinear Gating
 
@@ -78,14 +105,16 @@ Generating isolated attosecond pulses (IAPs) from relativistic HHG is critical f
 - Controlled angle and delay
 - Single-cycle gating pulse
 
-**Status**: Demonstrated (Kim 2025)
+**Status**: Demonstrated
 
 **Advantages**:
 - Works with multi-cycle main pulse
 - Direct access to each attosecond pulse
 - Plasma denting diagnostics
 
-**Key Paper**: Kim et al., PRR 7, 013216 (2025)
+— Kim et al., Phys. Rev. Research 7, 013216 (2025)
+  [KB: /home/zhiping/knowledge_base/paper/2025/2025--Isolated attosecond pulses generated from a relativistic plasma mirror via noncollinear gating]
+  (Full paper read — noncollinear temporal gating demonstrated)
 
 ### 5. Divergence Gating
 
@@ -96,14 +125,16 @@ Generating isolated attosecond pulses (IAPs) from relativistic HHG is critical f
 - Controlled defocusing
 - Appropriate plasma gradient
 
-**Status**: Demonstrated (Zhang 2022)
+**Status**: Demonstrated
 
 **Advantages**:
 - Works with chirped pulses
 - mJ-level IAPs
 - Low-order harmonics preserved
 
-**Key Paper**: Zhang et al., NJP 24, 033038 (2022)
+— Zhang et al., New J. Phys. 24, 033038 (2022)
+  [KB: /home/zhiping/knowledge_base/paper/2022/2022--Divergence gating towards far-field isolated attosecond pulses]
+  (Full paper read — divergence gating with chirped lasers)
 
 ### 6. Double-Foil Target (Transmission)
 
@@ -114,14 +145,16 @@ Generating isolated attosecond pulses (IAPs) from relativistic HHG is critical f
 - High-contrast laser
 - Appropriate foil thicknesses
 
-**Status**: Theoretical (Xu 2018)
+**Status**: Theoretical
 
 **Advantages**:
 - Natural isolation mechanism
 - High photon energy (keV)
 - High efficiency
 
-**Key Paper**: Xu et al., PPCF 60, 045005 (2018)
+— Xu et al., Plasma Phys. Control. Fusion 60, 045005 (2018)
+  [KB: /home/zhiping/knowledge_base/paper/2018/2018--Coherent synchrotron emission in transmission with double foil target]
+  (Full paper read — 18 as single pulse, γ_x ≈ 9, keV photons)
 
 ### 7. Cascade Method
 
@@ -179,8 +212,8 @@ Generating isolated attosecond pulses (IAPs) from relativistic HHG is critical f
 
 | Technique | Laser | Intensity | Result |
 |-----------|-------|-----------|--------|
-| Intensity gating | LWS-20 | ~10¹⁹ W/cm² | IAP demonstrated |
-| Noncollinear | IBS | 10²¹ W/cm² | IAP demonstrated |
+| Intensity gating | LWS-20 (MPQ) | ~10¹⁹ W/cm² | IAP demonstrated |
+| Noncollinear | IBS Gwangju | 10²¹ W/cm² | IAP demonstrated |
 | Divergence gating | — | 10²⁰ W/cm² | mJ IAPs simulated |
 | Double-foil | — | 10²¹ W/cm² | 18 as simulated |
 

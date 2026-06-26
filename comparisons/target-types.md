@@ -4,6 +4,19 @@ created: 2026-06-25
 updated: 2026-06-25
 type: comparison
 tags: [target, thin-foil, double-foil, semi-infinite, comparison]
+sources:
+  - path: /home/zhiping/knowledge_base/paper/2020/2020--Electron-Nanobunch-Width-Dominated Spectral Power Law for Relativistic Harmonic Generation from Ultrathin Foils
+    doi: 10.1103/PhysRevLett.124.185004
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2018/2018--Coherent synchrotron emission in transmission with double foil target
+    doi: 10.1088/1361-6587/aaa57d
+    read: true
+    sections: [1-5]
+  - path: /home/zhiping/knowledge_base/paper/2019/2019--Enhancement of the surface emission at the fundamental frequency and the transmitted high-order harmonics by pre-structured targets
+    doi: 10.1017/hpl.2019.20
+    read: true
+    sections: [1-2]
 ---
 
 # Target Types Comparison

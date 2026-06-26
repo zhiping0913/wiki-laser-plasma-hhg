@@ -4,6 +4,15 @@ created: 2026-06-25
 updated: 2026-06-25
 type: comparison
 tags: [intensity, a0, laser, comparison, scaling]
+sources:
+  - path: /home/zhiping/knowledge_base/thesis/2019/2019--Ultrafast Sources of Intense Radiation
+    doi: null (PhD thesis, Princeton 2019)
+    read: true
+    sections: [4.1, 4.3]
+  - path: /home/zhiping/knowledge_base/paper/2026/2026--Efficiency-optimized relativistic plasma harmonics for extreme fields
+    doi: 10.1038/s41586-026-10400-2
+    read: true
+    sections: [1-4]
 ---
 
 # Intensity Comparison — Laser Intensity Effects on HHG

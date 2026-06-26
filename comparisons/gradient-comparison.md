@@ -4,6 +4,11 @@ created: 2026-06-25
 updated: 2026-06-25
 type: comparison
 tags: [preplasma, gradient, scale-length, comparison, optimization]
+sources:
+  - path: /home/zhiping/knowledge_base/thesis/2019/2019--Ultrafast Sources of Intense Radiation
+    doi: null (PhD thesis, Princeton 2019)
+    read: true
+    sections: [4.1.4, 5.1.1]
 ---
 
 # Gradient Comparison — Effects of Plasma Density Scale Length

@@ -4,6 +4,15 @@ created: 2026-06-25
 updated: 2026-06-25
 type: comparison
 tags: [rom, cse, comparison, mechanism]
+sources:
+  - path: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma
+    doi: 10.1103/PhysRevE.74.046404
+    read: true
+    sections: [II, VII]
+  - path: /home/zhiping/knowledge_base/paper/2012/2012--Isolated Attosecond Pulses from Laser-Driven Synchrotron Radiation
+    doi: 10.1103/PhysRevLett.109.245005
+    read: true
+    sections: [all]
 ---
 
 # ROM vs CSE — Mechanism Comparison
@@ -123,8 +132,9 @@ All are manifestations of "relativistic oscillating mirror reflecting laser to p
 - Its density distribution
 - Velocity/acceleration characteristics
 
-— Baeva et al., PRE 74, 046404 (2006), §II
-  "High-order harmonics are generated due to sharp spikes in the relativistic γ factor of the plasma surface... The qualitative behavior of v_s and γ_s is universal, and since it governs the HHG, the spectrum of the high-order harmonics does not depend on the particular surface motion."
+— Baeva et al., Phys. Rev. E 74, 046404 (2006)
+  [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
+  §II: "High-order harmonics are generated due to sharp spikes in the relativistic γ factor of the plasma surface... The qualitative behavior of v_s and γ_s is universal."
 
 ## Edwards' Reconciliation
 
