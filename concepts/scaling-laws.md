@@ -9,14 +9,22 @@ sources:
     doi: null (PhD thesis, Princeton 2019)
     read: true
     sections: [4.1, 4.2, 4.3]
-  - path: /home/zhiping/knowledge_base/paper/2020/2020--Electron-Nanobunch-Width-Dominated Spectral Power Law for Relativistic Harmonic Generation from Ultrathin Foils/paper.md
+  - path: /home/zhiping/knowledge_base/paper/2020/2020--Electron-Nanobunch-Width-Dominated Spectral Power Law for Relativistic Harmonic Generation from Ultrathin Foils
     doi: 10.1103/PhysRevLett.124.185004
     read: true
     sections: [all]
-  - path: /home/zhiping/knowledge_base/other/2024--陈自宇--Laser Plasma Notes for Beginners High Harmonic Generation/paper.md
-    doi: null (tutorial note)
+  - path: /home/zhiping/knowledge_base/paper/2016/2016--Waveform-Controlled Relativistic High-Order-Harmonic Generation
+    doi: 10.1103/PhysRevLett.117.125001
     read: true
-    sections: [0.4.3, 0.4.4]
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2013/2013--Scaling High-Order Harmonic Generation from Laser-Solid Interactions to Ultrahigh Intensity
+    doi: 10.1103/PhysRevLett.110.175002
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2005/2005--Scalings for ultrarelativistic laser plasmas and quasimonoenergetic electrons
+    doi: 10.1063/1.1884126
+    read: true
+    sections: [all]
 confidence: high
 ---
 
@@ -61,8 +69,9 @@ For a₀/N > 0.2, p exceeds the BGP prediction of 8/3. This regime corresponds t
 — Edwards Thesis §4.1.3 [KB: .../thesis.md, line 1663]
   "for a₀ → ∞ at fixed S, p approaches a constant value"
 
-**Original paper**:
-- M. R. Edwards and J. M. Mikhailova, "Waveform-Controlled Relativistic High-Order-Harmonic Generation," Phys. Rev. Lett. 117, 125001 (2016)
+— Edwards & Mikhailova, Phys. Rev. Lett. 117, 125001 (2016)
+  [KB: /home/zhiping/knowledge_base/paper/2016/2016--Waveform-Controlled Relativistic High-Order-Harmonic Generation]
+  (Full paper read — waveform-controlled HHG, optimal waveform at ω_pR)
 
 ## Bunch-Width Limited Cutoff
 
@@ -77,8 +86,9 @@ Above ω_b, the spectrum gains an additional ω^{-2} factor from incoherent summ
 — Edwards Thesis §4.3.4 [KB: .../thesis.md, line 1923]
   "The bunch width Δ therefore sets a frequency cutoff ω_b approximated as: ω_b/ω_L = λ/(2Δ)"
 
-**Original paper**:
-- M. R. Edwards, N. M. Fasano, and J. M. Mikhailova, "Electron-Nanobunch-Width-Dominated Spectral Power Law for Relativistic Harmonic Generation from Ultrathin Foils," Phys. Rev. Lett. 124, 185004 (2020)
+— Edwards et al., Phys. Rev. Lett. 124, 185004 (2020)
+  [KB: /home/zhiping/knowledge_base/paper/2020/2020--Electron-Nanobunch-Width-Dominated Spectral Power Law for Relativistic Harmonic Generation from Ultrathin Foils]
+  (Full paper read — bunch-width limited cutoff, thin-foil n^{-10/3})
 
 ## Thin-Foil Scaling: n^{-10/3}
 
@@ -91,8 +101,9 @@ The mechanism: the bunch has a sharp leading edge. Only electrons within λ/2 of
 — Edwards Thesis §4.2.2 [KB: .../thesis.md, line 1821]
   "the harmonic intensity varies as: I(ω) ∝ ω^{-10/3}"
 
-**Original paper**:
-- M. R. Edwards, N. M. Fasano, and J. M. Mikhailova, Phys. Rev. Lett. 124, 185004 (2020)
+— Edwards et al., Phys. Rev. Lett. 124, 185004 (2020)
+  [KB: /home/zhiping/knowledge_base/paper/2020/2020--Electron-Nanobunch-Width-Dominated Spectral Power Law for Relativistic Harmonic Generation from Ultrathin Foils]
+  (Full paper read — thin-foil scaling law)
 
 ## Efficiency Scaling with a₀/N
 
@@ -107,8 +118,9 @@ with q₁ ≈ 9.2 for a₀/N < 0.2 (increasing efficiency) and q₂ ≈ -1.5 to 
 — Edwards Thesis §4.1.1 [KB: .../thesis.md, line 1631]
   "a maximum pulse generation efficiency exists near a₀/N ≈ 0.2 − 0.5"
 
-**Original paper on scaling to ultrahigh intensity**:
-- F. Dollar, P. Cummings, V. Chvykov, L. Willingale, M. Vargas, V. Yanovsky, C. Zulick, A. Maksimchuk, A. G. R. Thomas, and K. Krushelnick, "Scaling high-order harmonic generation from laser-solid interactions to ultrahigh intensity," Phys. Rev. Lett. 110, 175002 (2013)
+— Dollar et al., Phys. Rev. Lett. 110, 175002 (2013)
+  [KB: /home/zhiping/knowledge_base/paper/2013/2013--Scaling High-Order Harmonic Generation from Laser-Solid Interactions to Ultrahigh Intensity]
+  (Full paper read — scaling of HHG to ultrahigh intensity)
 
 ## Surface Displacement Scaling
 
@@ -125,8 +137,9 @@ Confirmed by PIC simulations: x/λ = 0.31 · a₀/N at θ_L = 15°.
 
 **γ ∝ a₀** at fixed a₀/N (from similarity theory: γ = S^{α_γ} a₀ with α_γ ≈ 3)
 
-**Original similarity theory paper**:
-- S. Gordienko and A. Pukhov, "Scalings for ultrarelativistic laser plasmas and quasimonoenergetic electrons," Phys. Plasmas 12, 043109 (2005)
+— Gordienko & Pukhov, Phys. Plasmas 12, 043109 (2005)
+  [KB: /home/zhiping/knowledge_base/paper/2005/2005--Scalings for ultrarelativistic laser plasmas and quasimonoenergetic electrons]
+  (Full paper read — similarity theory)
 
 ## Preplasma Effects on Scaling
 
@@ -138,8 +151,9 @@ Finite plasma gradients modify the scaling substantially:
 — Edwards Thesis §4.1.4 [KB: .../thesis.md, line 1679]
   "A substantial increase in efficiency occurs as L_e/λ is increased from 0 to 0.1"
 
-**Original paper on preplasma optimization**:
-- F. Dollar, P. Cummings, V. Chvykov, L. Willingale, M. Vargas, V. Yanovsky, C. Zulick, A. Maksimchuk, A. G. R. Thomas, and K. Krushelnick, Phys. Rev. Lett. 110, 175002 (2013)
+— Dollar et al., Phys. Rev. Lett. 110, 175002 (2013)
+  [KB: /home/zhiping/knowledge_base/paper/2013/2013--Scaling High-Order Harmonic Generation from Laser-Solid Interactions to Ultrahigh Intensity]
+  (Full paper read — preplasma optimization)
 
 ## Summary Table
 
