@@ -51,7 +51,7 @@ Edwards & Mikhailova (2016) showed:
 - **Maximum efficiency**: 63% conversion to ω ≥ 6ω_L
 - **10% in 80-200 eV range** (compared to 0.6% previously)
 
-— Edwards & Mikhailova, PRL 117, 125001 (2016) [KB: .../paper.md]
+— — doi: 10.1103/PhysRevLett.117.125001 [KB: .../paper.md]
   "63% is converted to higher frequencies (ω ≥ 6ωL)"
 
 ### Power-Law Scaling
