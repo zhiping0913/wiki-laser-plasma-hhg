@@ -5,11 +5,19 @@
      5|type: comparison
      6|tags: [rom, cse, comparison, mechanism]
      7|sources:
-     8|  - path: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma
-     9|    doi: 10.1103/PhysRevE.74.046404
-    10|    read: true
-    11|    sections: [II, VII]
-    12|  - path: /home/zhiping/knowledge_base/paper/2012/2012--Isolated Attosecond Pulses from Laser-Driven Synchrotron Radiation
+  - path: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma
+    doi: 10.1103/PhysRevE.74.046404
+    read: true
+    sections: [II, VII]
+  - path: /home/zhiping/knowledge_base/paper/2006/2006--Attosecond pulse generation in the relativistic regime of the laser-foil interaction_ The sliding mirror model
+    doi: 10.1063/1.2158145
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2020/2020--Electron trajectories associated with laser-driven coherent synchrotron emission at the front surface of overdense plasmas
+    doi: 10.1103/PhysRevE.101.053210
+    read: true
+    sections: [all]
+---
     13|    doi: 10.1103/PhysRevLett.109.245005
     14|    read: true
     15|    sections: [all]

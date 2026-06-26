@@ -57,6 +57,10 @@ The plasma physics group in the Department of Mechanical and Aerospace Engineeri
 ## Current Research (from doi_core)
 
 ### Related papers by group members:
+
+- Mikhailova et al. 2012 (PRL): DOI 10.1103/PhysRevLett.109.245005
+  - Isolated Attosecond Pulses from Laser-Driven Synchrotron Radiation
+  - First demonstration of isolated attosecond pulses from relativistic plasma mirrors
 - Fasano et al. 2018: Nanobunch formation resolution effects
 - Edwards (at LLNL): Continued HHG research
 

@@ -9,6 +9,10 @@ sources:
     doi: 10.1088/1361-6587/aaa57d
     read: true
     sections: [1-5]
+  - path: /home/zhiping/knowledge_base/paper/2022/2022--Ultrahigh-Amplitude Isolated Attosecond Pulses Generated in the Transmission Regime from Ultrathin Foil
+    doi: 10.1103/PhysRevApplied.18.024024
+    read: true
+    sections: [all]
 confidence: high
 ---
 
@@ -130,6 +134,20 @@ The double-foil target (DFT) scheme enables efficient coherent synchrotron emiss
 — doi: 10.1038/ncomms2775 [KB: .../paper.md, abstract]
   "dense relativistic electron mirrors can be created from the interaction of a high-intensity laser pulse with a freestanding, nanometre-scale thin foil"
 
+## Ultrahigh-Amplitude IAP in Transmission (2022)
+
+Recent work demonstrated that ultrathin foil targets in the relativistically transparent regime can generate ultrahigh-amplitude isolated attosecond pulses through electron nanobunch propagation in the transmission regime.
+
+### Key Results
+- Ultrahigh-amplitude isolated attosecond pulses
+- Ultrathin foil targets (relativistically transparent)
+- Electron nanobunch propagates through foil, emitting coherent radiation
+- Higher amplitude than reflection-regime schemes
+- Natural isolation from nanobunch dynamics
+
+— doi: 10.1103/PhysRevApplied.18.024024
+  [KB: /home/zhiping/knowledge_base/paper/2022/2022--Ultrahigh-Amplitude Isolated Attosecond Pulses Generated in the Transmission Regime from Ultrathin Foil]
+
 ## Links
 
 - [[cse-theory]] — CSE mechanism in detail
@@ -137,3 +155,4 @@ The double-foil target (DFT) scheme enables efficient coherent synchrotron emiss
 - [[waveform-engineering]] — Optimal driving waveform
 - [[efficiency-optimization]] — How to maximize conversion
 - [[attosecond-lighthouse]] — Isolation techniques
+- [[isolation-techniques]] — Comparison of isolation methods

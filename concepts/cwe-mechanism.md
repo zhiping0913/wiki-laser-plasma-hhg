@@ -17,11 +17,15 @@
     17|    doi: 10.1038/nphys595
     18|    read: true
     19|    sections: [all]
-    20|  - path: /home/zhiping/knowledge_base/paper/2013/2013--Coherent wake emission spectroscopy as a probe of steep plasma density profiles
-    21|    doi: 10.1103/PhysRevE.87.035101
-    22|    read: true
-    23|    sections: [all]
-    24|---
+  - path: /home/zhiping/knowledge_base/paper/2013/2013--Coherent wake emission spectroscopy as a probe of steep plasma density profiles
+    doi: 10.1103/PhysRevE.87.035101
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2005/2005--Coherent Focusing of High Harmonics_ A New Way Towards the Extreme Intensities
+    doi: 10.1103/PhysRevLett.94.103903
+    read: true
+    sections: [all]
+---
     25|
     26|# CWE — Coherent Wake Emission
     27|
@@ -117,10 +121,30 @@
    117|- Relativistic intensities (a₀ > 1)
    118|- Short pulse durations (to prevent gradient expansion)
    119|
-   120|## Links
-   121|
-   122|- [[rom-theory]] — Relativistic mechanism, distinct from CWE
-   123|- [[cse-theory]] — Another relativistic mechanism
-   124|- [[preplasma-scale-length]] — Gradient determines CWE vs ROM
-   125|- [[scaling-laws]] — CWE has different scaling than ROM
+## Coherent Focusing of CWE Harmonics
+
+Gordienko et al. (2005) proposed that CWE harmonics can be coherently focused using a curved (spherical) plasma surface to achieve extreme intensities. The key insight is that the CWE spectrum decays as |E_ω|² ∝ ω^{-p} with p = 5/2, which is slower than the 1/ω⁴ threshold needed for coherent intensity boosting.
+
+### Mechanism
+1. Reflect a few-fs laser pulse from a concave plasma surface
+2. Harmonics generated via relativistic Doppler shift: ω_n = 4γ(t_n)² ω₀
+3. Huygens principle in spherical geometry: focusing adds a factor ω in the focal field integral
+4. All harmonics interfere constructively in the focal volume
+
+### Scaling
+- Focal intensity: I_CHF = μ₁(R₀Ω/λ)² a₀³ I₀
+- Pulse duration: τ_CHF = 2πμ₂/(a₀²ω₀), reaching sub-attosecond (zeptosecond) range
+- Schwinger limit reachable with I₀ ~ 10²² W/cm² incident laser
+
+— doi: 10.1103/PhysRevLett.94.103903
+  [KB: /home/zhiping/knowledge_base/paper/2005/2005--Coherent Focusing of High Harmonics_ A New Way Towards the Extreme Intensities]
+  Abstract: "a new way towards the extreme intensities... the spectrum must decay slower than 1/ω⁴"
+
+## Links
+
+- [[rom-theory]] — Relativistic mechanism, distinct from CWE
+- [[cse-theory]] — Another relativistic mechanism
+- [[preplasma-scale-length]] — Gradient determines CWE vs ROM
+- [[scaling-laws]] — CWE has different scaling than ROM
+- [[chf-mechanism]] — CWE harmonics can be coherently focused
    126|

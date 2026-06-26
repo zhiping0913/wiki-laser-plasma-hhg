@@ -17,6 +17,18 @@ sources:
     doi: 10.1103/PhysRevLett.117.125001
     read: true
     sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors
+    doi: 10.1038/ncomms4403
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2019/2019--Enhancement of the surface emission at the fundamental frequency and the transmitted high-order harmonics by pre-structured targets
+    doi: 10.1017/hpl.2019.20
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2024/2024--Self-healing high-order harmonic generation from curved relativistic plasma mirrors with Bessel-Gaussian beams
+    doi: 10.1103/PhysRevA.109.043521
+    read: true
+    sections: [all]
 confidence: high
 ---
 
@@ -140,6 +152,37 @@ Despite theoretical predictions, experiments could not achieve:
 2. **Genetic algorithms**: Search waveform parameter space
 3. **Gradient optimization**: Find optimal L/λ
 4. **Target thickness scan**: Verify analytical predictions
+
+## PM Denting and Efficiency Trade-off
+
+Vincenti et al. (2014) showed that PM curvature from the preplasma gradient affects both efficiency and spatial quality. The PM denting depth δ_T ~ 0.1λ_L (~80 nm for 800 nm laser) in the current experimental regime.
+
+### Trade-off
+- Larger gradient L → higher efficiency (more coupling)
+- Larger gradient L → more PM denting → larger harmonic divergence
+- This is a fundamental trade-off: efficiency vs. spatial quality
+
+### Wavefront Compensation
+PM curvature can be compensated by defocusing the driving laser (diverging wavefront), restoring near-diffraction-limited divergence while maintaining high efficiency.
+
+— doi: 10.1038/ncomms4403
+  [KB: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors]
+  Key result: "Harmonic divergence increased by up to factor of 3 for L ~ 0.05-0.1λ_L"
+
+## Pre-Structured Targets
+
+Pre-structured targets with periodic surface modulations can enhance HHG by exciting surface plasma waves (SPW). Enhancement of ~100× in transmitted energy has been demonstrated.
+
+— doi: 10.1017/hpl.2019.20
+  [KB: /home/zhiping/knowledge_base/paper/2019/2019--Enhancement of the surface emission at the fundamental frequency and the transmitted high-order harmonics by pre-structured targets]
+  "the transmitted laser energy behind the pre-structured target is increased by about two orders of magnitude"
+
+## BG Beam Self-Healing for Curved PM
+
+Pang et al. (2024) showed that Bessel-Gaussian beams can self-heal after interaction with curved PMs, providing >1 order of magnitude higher harmonic intensity than Gaussian beams. The side-lobe energy reservoirs feed the self-healing process.
+
+— doi: 10.1103/PhysRevA.109.043521
+  [KB: /home/zhiping/knowledge_base/paper/2024/2024--Self-healing high-order harmonic generation from curved relativistic plasma mirrors with Bessel-Gaussian beams]
 
 ## Path to CHF
 

@@ -13,11 +13,19 @@ sources:
     doi: 10.1017/hpl.2020.46
     read: true
     sections: [1-4]
-confidence: medium
-    doi: null (tutorial note)
+  - path: /home/zhiping/knowledge_base/paper/2005/2005--Coherent Focusing of High Harmonics_ A New Way Towards the Extreme Intensities
+    doi: 10.1103/PhysRevLett.94.103903
     read: true
-    sections: [0.4.6]
-confidence: low
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors
+    doi: 10.1103/PhysRevLett.123.105001
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors
+    doi: 10.1038/ncomms4403
+    read: true
+    sections: [all]
+confidence: high
 ---
 
 # CHF — Coherent Harmonic Focusing
@@ -108,8 +116,48 @@ For coherent addition at focus:
 ### From Gordienko-Pukhov (2004)
 The original proposal for using relativistic HHG to reach extreme intensities:
 
-— Gordienko, Pukhov, Shorokhov, Baeva, PRL 93, 115002 (2004)
-  [KB: Similarity theory paper — read]
+— doi: 10.1103/PhysRevLett.93.115002
+  [KB: /home/zhiping/knowledge_base/paper/2004/2004--Relativistic Doppler Effect_ Universal Spectra and Zeptosecond Pulses]
+
+### Coherent Focusing of Harmonics (Gordienko 2005)
+
+Gordienko et al. (2005) proposed that CWE harmonics can be coherently focused using a concave plasma surface to achieve extreme intensities. The key mechanism:
+
+1. Reflect a few-fs laser pulse from a spherical plasma surface
+2. Harmonics generated via relativistic Doppler shift: ω_n = 4γ(t_n)²ω₀
+3. Huygens principle in spherical geometry adds a factor ω in the focal field integral
+4. All harmonics interfere constructively → intensity boosting
+
+**Scaling**:
+- Focal intensity: I_CHF = μ₁(R₀Ω/λ)² a₀³ I₀
+- Pulse duration: τ_CHF = 2πμ₂/(a₀²ω₀), reaching sub-attosecond (zeptosecond) range
+- Schwinger limit reachable with I₀ ~ 10²² W/cm²
+
+— doi: 10.1103/PhysRevLett.94.103903
+  [KB: /home/zhiping/knowledge_base/paper/2005/2005--Coherent Focusing of High Harmonics_ A New Way Towards the Extreme Intensities]
+  Abstract: "a new way towards the extreme intensities... the spectrum must decay slower than 1/ω⁴"
+
+### Curved Relativistic Plasma Mirror (Vincenti 2019)
+
+Vincenti (2019) proposed a realistic all-optical scheme based on plasma mirrors optically curved by radiation pressure, demonstrating that intensities above 10²⁵ W/cm² are achievable with 3 PW lasers.
+
+**Key results**:
+- PM denting creates parabolic mirror: δ(s) = 2L·cos²θ·ln(a(s))
+- Focal length: f_p = w_L²/(2δ_p)
+- Intensity gain Γ ~ 10³: ~5× from Doppler compression + ~200× from spatial focusing
+- ~100 as pulses, ~1.5 J energy, spot ~0.4λ
+- Only ~30 harmonic orders needed (highly robust)
+
+— doi: 10.1103/PhysRevLett.123.105001
+  [KB: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors]
+  Abstract: "intensities above 10²⁵ W/cm² could be reached with a 3 PetaWatt (PW) laser"
+
+### PM Curvature Effects (Vincenti 2014)
+
+Vincenti et al. (2014) showed that PM curvature from the preplasma gradient affects CHF by increasing harmonic divergence. The focusing parameter Ψ_n ∝ n·δ_T/λ_L scales linearly with harmonic order, increasing divergence by up to 3× for optimal L ~ 0.05-0.1λ. This can be compensated by defocusing the driving laser.
+
+— doi: 10.1038/ncomms4403
+  [KB: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors]
 
 ### From Quéré-Vincenti (2021)
 The review "Reflecting petawatt lasers off relativistic plasma mirrors: a realistic path to the Schwinger limit" provides the modern perspective on CHF:

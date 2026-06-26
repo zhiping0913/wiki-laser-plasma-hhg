@@ -82,6 +82,11 @@ The original MPQ HHG group has dispersed:
 
 - Baeva et al. 2006 (BGP): Referenced in rom-theory.md
 - Heissler 2012 thesis: /home/zhiping/knowledge_base/thesis/2012/
+- Mikhailova et al. 2012 (PRL): DOI 10.1103/PhysRevLett.109.245005
+  - Isolated Attosecond Pulses from Laser-Driven Synchrotron Radiation
+  - First isolated attosecond pulses from relativistic plasma mirrors
+- Pirozhkov et al. 2006 (Phys. Plasmas): DOI 10.1063/1.2158145
+  - Sliding mirror model for attosecond pulse generation
 - Kiefer et al. 2013 (REM): DOI 10.1038/ncomms2775
 
 ## Links

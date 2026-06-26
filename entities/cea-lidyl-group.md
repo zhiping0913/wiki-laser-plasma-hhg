@@ -61,6 +61,9 @@ The Physics at High Intensity group at CEA-LIDYL (Lasers, Interactions and Dynam
 - Vincenti et al. 2014 (Nat. Commun.): DOI 10.1038/ncomms4403
 - Kallala et al. 2020 (PRR): DOI 10.1103/PhysRevResearch.2.043007
 - Quéré & Vincenti 2021 (HPLSE): DOI 10.1017/hpl.2020.46
+- Vincenti et al. 2019 (PRL): DOI 10.1103/PhysRevLett.123.105001
+  - Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors
+  - Curved PM → 10²⁵ W/cm² with 3 PW laser, Γ ~ 10³ gain
 - Vincenti et al. 2023 (EPJST): DOI 10.1140/epjs/s11734-023-00909-2
 
 ## Links

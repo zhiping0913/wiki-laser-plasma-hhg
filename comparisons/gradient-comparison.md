@@ -5,11 +5,27 @@
      5|type: comparison
      6|tags: [preplasma, gradient, scale-length, comparison, optimization]
      7|sources:
-     8|  - path: /home/zhiping/knowledge_base/thesis/2019/2019--Ultrafast Sources of Intense Radiation
-     9|    doi: null (PhD thesis, Princeton 2019)
-    10|    read: true
-    11|    sections: [4.1.4, 5.1.1]
-    12|---
+  - path: /home/zhiping/knowledge_base/thesis/2019/2019--Ultrafast Sources of Intense Radiation
+    doi: null (PhD thesis, Princeton 2019)
+    read: true
+    sections: [4.1.4, 5.1.1]
+  - path: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors
+    doi: 10.1038/ncomms4403
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors
+    doi: 10.1103/PhysRevLett.123.105001
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2026/2026--Efficiency-optimized relativistic plasma harmonics for extreme fields
+    doi: 10.1038/s41586-026-10400-2
+    read: true
+    sections: [1-2]
+  - path: /home/zhiping/knowledge_base/paper/2024/2024--Spectral modulation of high-order harmonics from relativistic plasma mirrors
+    doi: 10.1103/PhysRevE.109.025212
+    read: true
+    sections: [all]
+---
     13|
     14|# Gradient Comparison — Effects of Plasma Density Scale Length
     15|
@@ -135,7 +151,35 @@
    135|| 0.15-0.3 | Moderate | Complex | High | Large | Poor | Some experiments |
    136|| >0.3 | Low | — | Low | Large | Very poor | Not optimal |
    137|
-   138|## Edwards' Systematic Study
+   138|## PM Curvature Scaling with Gradient (Vincenti 2014)
+
+Vincenti et al. (2014) quantified how the gradient affects PM curvature and harmonic divergence:
+
+### Denting Parameter
+- Electron denting: x_e ~ a_L² · L (instantaneous, sub-cycle)
+- Ion erosion: x_i ~ ∫a_L dt (cumulative, irreversible)
+- Total: x_T = x_i + x_e
+
+### Divergence Impact
+- Focusing parameter: Ψ_n = 2√2 · δ_T · n/λ_L · (w_n/w_L)²
+- Ψ_n scales LINEARLY with harmonic order n
+- **Divergence increase: up to 3× for L ~ 0.05-0.1λ** (the optimal HHG gradient!)
+- Wavefront compensation: defocus driving laser to restore diffraction-limited divergence
+
+— doi: 10.1038/ncomms4403
+  [KB: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors]
+
+### Curved PM for CHF (Vincenti 2019)
+The PM curvature can be exploited as a feature — creating a curved relativistic plasma mirror:
+- Optimal gradient: L ~ λ/8 for θ = 45°
+- PM focal length: f_p = w_L²/(2δ_p)
+- Intensity gain Γ ~ 10³ (5× temporal × 200× spatial)
+- Requires 3 PW laser for 10²⁵ W/cm²
+
+— doi: 10.1103/PhysRevLett.123.105001
+  [KB: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors]
+
+## Edwards' Systematic Study
    139|
    140|### Key Results
    141|
@@ -223,17 +267,22 @@
    223|
    224|Gradient directly affects PM denting depth:
    225|
-   226|**Denting Depth**:
-   227|- Δz_i ∝ L × ∫a_L dt (ion contribution)
-   228|- Δz_e ∝ L × a_L (electron contribution)
-   229|
-   230|**Consequences**:
-   231|- Larger L → more denting → larger divergence
-   232|- Larger L → spectrospatial modulations
-   233|- Trade-off: efficiency vs. spatial quality
-   234|
-   235|— doi: 10.1038/s41586-026-10400-2 [KB: .../paper.md, Methods]
-   236|  "the steep intensity gradients result in a ponderomotive force, initially deforming the plasma surface"
+**Denting Depth** (Vincenti 2014):
+- Δz_e ~ a_L² · L (electron, instantaneous)
+- Δz_i ~ ∫a_L dt · √(1/n₀) (ion, cumulative)
+- Typical: δ_T ~ 0.1λ_L (~80 nm for 800 nm laser)
+
+**Consequences**:
+- Larger L → more denting → larger divergence (up to 3×)
+- Larger L → spectrospatial modulations
+- Trade-off: efficiency vs. spatial quality
+- Compensation: defocus driving laser (diverging wavefront)
+
+— doi: 10.1038/ncomms4403 [KB: .../paper.md]
+  "Harmonic divergence increased by up to factor of 3 for L ~ 0.05-0.1λ_L"
+
+— doi: 10.1038/s41586-026-10400-2 [KB: .../paper.md, Methods]
+  "the steep intensity gradients result in a ponderomotive force, initially deforming the plasma surface"
    237|
    238|## Optimization Strategy
    239|

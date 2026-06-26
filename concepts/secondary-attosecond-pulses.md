@@ -135,6 +135,12 @@ The spectral modulation period directly encodes the pulse separation. This can b
 - Extract pulse separation from ω_m
 - Infer plasma density from the delay
 
+Li et al. (2024) showed that spectral modulation of high-order harmonics from relativistic plasma mirrors can be attributed to relativistic self-phase modulation, providing a diagnostic of the PM surface dynamics. The harmonic splitting encodes information about the instantaneous PM shape and electron density profile.
+
+— doi: 10.1103/PhysRevE.109.025212
+  [KB: /home/zhiping/knowledge_base/paper/2024/2024--Spectral modulation of high-order harmonics in relativistic laser-solid interaction]
+  "the harmonic splitting should be attributed to the relativistic self-phase modulation"
+
 ## Links
 
 - [[scaling-laws]] — Spectral modulations affect measured p values

@@ -21,11 +21,19 @@
     21|    doi: 10.1103/PhysRevLett.110.175002
     22|    read: true
     23|    sections: [all]
-    24|  - path: /home/zhiping/knowledge_base/paper/2005/2005--Scalings for ultrarelativistic laser plasmas and quasimonoenergetic electrons
-    25|    doi: 10.1063/1.1884126
-    26|    read: true
-    27|    sections: [all]
-    28|confidence: high
+  - path: /home/zhiping/knowledge_base/paper/2005/2005--Scalings for ultrarelativistic laser plasmas and quasimonoenergetic electro
+    doi: 10.1063/1.1884126
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2020/2020--Electron trajectories associated with laser-driven coherent synchrotron emission at the front surface of overdense plasmas
+    doi: 10.1103/PhysRevE.101.053210
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors
+    doi: 10.1038/ncomms4403
+    read: true
+    sections: [all]
+---
     29|---
     30|
     31|# HHG Scaling Laws
@@ -155,7 +163,41 @@
    155|  [KB: /home/zhiping/knowledge_base/paper/2013/2013--Scaling High-Order Harmonic Generation from Laser-Solid Interactions to Ultrahigh Intensity]
    156|  (Full paper read — preplasma optimization)
    157|
-   158|## Summary Table
+   158|## CSE Electron Trajectory Scaling (Cousens 2020)
+
+Cousens et al. (2020) analyzed the detailed electron trajectories at the front surface of opaque plasmas, revealing how the trajectory shape determines the CSE emission characteristics.
+
+### Trajectory Properties at Emission
+- Reflected emission: v_x/c ~ -0.96, bunch density ~250n_c
+- Forward emission: v_x/c ~ +0.98, bunch density ~50n_c
+- Reflected ~30× stronger than forward emission
+- Pulse duration ~27 as (FWHM) for ω/ω_L = 100-200
+
+### Key Scaling Insight
+The emission condition v_∥ → max, a_⊥ → max is satisfied at specific points in the trajectory where the electron passes through zero transverse momentum (p_y = 0). The timing and strength of these emission points scale with a₀ and the plasma parameters.
+
+— doi: 10.1103/PhysRevE.101.053210
+  [KB: /home/zhiping/knowledge_base/paper/2020/2020--Electron trajectories associated with laser-driven coherent synchrotron emission at the front surface of overdense plasmas]
+
+## PM Curvature Scaling (Vincenti 2014)
+
+The PM curvature from the preplasma gradient introduces an additional scaling:
+
+### Divergence Scaling
+- Focusing parameter: Ψ_n ∝ n · δ_T / λ_L
+- δ_T ~ a_L² · L (electron denting)
+- Divergence increase: θ_n = θ_n⁰ · √(1 + Ψ_n²)
+- **Scales linearly with harmonic order n**
+- Up to 3× divergence increase for L ~ 0.05-0.1λ
+
+### Compensation
+- Defocus driving laser (diverging wavefront)
+- Restores near-diffraction-limited divergence
+
+— doi: 10.1038/ncomms4403
+  [KB: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors]
+
+## Summary Table
    159|
    160|| Quantity | Scaling | Conditions | Original Paper |
    161||----------|---------|------------|----------------|

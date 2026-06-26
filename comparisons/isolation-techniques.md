@@ -21,11 +21,23 @@
     21|    doi: 10.1088/1367-2630/ac59ec
     22|    read: true
     23|    sections: [1-2]
-    24|  - path: /home/zhiping/knowledge_base/paper/2018/2018--Coherent synchrotron emission in transmission with double foil target
-    25|    doi: 10.1088/1361-6587/aaa57d
-    26|    read: true
-    27|    sections: [1-5]
-    28|---
+  - path: /home/zhiping/knowledge_base/paper/2018/2018--Coherent synchrotron emission in transmission with double foil target
+    doi: 10.1088/1361-6587/aaa57d
+    read: true
+    sections: [1-5]
+  - path: /home/zhiping/knowledge_base/paper/2012/2012--Isolated Attosecond Pulses from Laser-Driven Synchrotron Radiation
+    doi: 10.1103/PhysRevLett.109.245005
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2022/2022--Ultrahigh-Amplitude Isolated Attosecond Pulses Generated in the Transmission Regime from Ultrathin Foil
+    doi: 10.1103/PhysRevApplied.18.024024
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2006/2006--Attosecond pulse generation in the relativistic regime of the laser-foil interaction_ The sliding mirror model
+    doi: 10.1063/1.2158145
+    read: true
+    sections: [all]
+---
     29|
     30|# Isolation Techniques Comparison
     31|
@@ -57,7 +69,42 @@
     57|  §5: Measured high conversion efficiency and small divergence of relativistic harmonics
     58|  §6: First nonlinear process (two-photon ATI of Argon) using solid-surface harmonics
     59|
-    60|### 2. Polarization Gating
+    60|### 1b. Few-Cycle Relativistic HHG (Mikhailova 2012)
+
+**Principle**: Use near-single-cycle relativistic laser pulses to generate isolated attosecond pulses via coherent synchrotron emission from plasma mirrors.
+
+**Key Physics**:
+- Few-cycle pulse creates dense electron nanobunches at plasma surface
+- Nanobunches undergo coherent synchrotron radiation
+- Single attosecond pulse generated per half-cycle
+- With near-single-cycle driving: natural isolation of single pulse
+
+**Results**:
+- Isolated attosecond pulses demonstrated from relativistic plasma mirrors
+- CSE mechanism confirmed: v_∥ → max, a_⊥ → max condition
+- Pulse duration ~tens of attoseconds
+- High photon energy (XUV to soft x-ray)
+
+— doi: 10.1103/PhysRevLett.109.245005
+  [KB: /home/zhiping/knowledge_base/paper/2012/2012--Isolated Attosecond Pulses from Laser-Driven Synchrotron Radiation]
+  "Our analysis demonstrates that the attosecond pulse generation is governed by the formation of dense electron bunches that undergo coherent synchrotron radiation."
+
+### 1c. Sliding Mirror Model (Naumova 2006)
+
+**Principle**: In the dense plasma limit, electrons move only along the target surface (sliding motion), generating harmonics via nonlinear surface current.
+
+**Key Physics**:
+- Perpendicular motion suppressed by charge-separation field when ε_p ≥ a₀
+- Harmonic spectrum: ~ω⁻² up to ω_cr ~ a₀ω₀, then exponential decay
+- All harmonics phase-locked → attosecond pulse trains
+- Single attosecond pulse requires CEP control
+- Optimal: ε_p ~ a₀ (I₀ ~ 10²³ W/cm² for typical parameters)
+
+— doi: 10.1063/1.2158145
+  [KB: /home/zhiping/knowledge_base/paper/2006/2006--Attosecond pulse generation in the relativistic regime of the laser-foil interaction_ The sliding mirror model]
+  "The nonlinear electric current caused by the electron motion at relativistic velocity generates the high-order harmonics... These harmonics are phase locked."
+
+### 2. Polarization Gating
     61|
     62|**Principle**: Time-dependent polarization suppresses attosecond pulse generation except in a short window.
     63|
@@ -156,7 +203,20 @@
    156|  [KB: /home/zhiping/knowledge_base/paper/2018/2018--Coherent synchrotron emission in transmission with double foil target]
    157|  (Full paper read — 18 as single pulse, γ_x ≈ 9, keV photons)
    158|
-   159|### 7. Cascade Method
+   159|### 6b. Ultrahigh-Amplitude IAP in Transmission (2022)
+
+**Principle**: Ultrathin foil targets in the transmission regime generate ultrahigh-amplitude isolated attosecond pulses through relativistic electron nanobunch propagation.
+
+**Key Results**:
+- Ultrahigh-amplitude isolated attosecond pulses in transmission
+- Ultrathin foil targets (relativistically transparent)
+- Electron nanobunch propagates through foil, emitting coherent radiation
+- Higher amplitude than reflection-regime schemes
+
+— doi: 10.1103/PhysRevApplied.18.024024
+  [KB: /home/zhiping/knowledge_base/paper/2022/2022--Ultrahigh-Amplitude Isolated Attosecond Pulses Generated in the Transmission Regime from Ultrathin Foil]
+
+### 7. Cascade Method
    160|
    161|**Principle**: Multiple plasma mirror reflections build up harmonic content and can isolate single pulses.
    162|

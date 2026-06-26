@@ -13,10 +13,22 @@ sources:
     doi: 10.1088/1361-6587/aaa57d
     read: true
     sections: [1-5]
-  - path: /home/zhiping/knowledge_base/paper/2019/2019--Enhancement of the surface emission at the fundamental frequency and the transmitted high-order harmonics by pre-structured targets
-    doi: 10.1017/hpl.2019.20
+  - path: /home/zhiping/knowledge_base/paper/2019/2019--The effect of target thickness on the efficiency of high-order harmonics generated from laser-driven overdense plasma target
+    doi: 10.1088/1367-2630/ab4622
     read: true
-    sections: [1-2]
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors
+    doi: 10.1103/PhysRevLett.123.105001
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2022/2022--Ultrahigh-Amplitude Isolated Attosecond Pulses Generated in the Transmission Regime from Ultrathin Foil
+    doi: 10.1103/PhysRevApplied.18.024024
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2024/2024--Self-healing high-order harmonic generation from curved relativistic plasma mirrors with Bessel-Gaussian beams
+    doi: 10.1103/PhysRevA.109.043521
+    read: true
+    sections: [all]
 ---
 
 # Target Types Comparison
@@ -197,9 +209,40 @@ For S·D < 0.1: efficiency curves collapse onto single line.
 - Semi-infinite (proven in Timmis 2026)
 - Pre-shaped targets for curvature control
 
+## Curved Relativistic Plasma Mirror (CRM)
+
+**Concept**: Use radiation pressure to optically curve the PM surface, creating a parabolic mirror that simultaneously Doppler-upshifts and focuses harmonics.
+
+**Key Results (Vincenti 2019)**:
+- PM denting: δ(s) = 2L·cos²θ·ln(a(s)) → parabolic shape for Gaussian beam
+- Focal length: f_p = w_L²/(2δ_p)
+- Intensity gain Γ ~ 10³: ~5× temporal × 200× spatial focusing
+- ~100 as pulses at ~10²⁵ W/cm² with 3 PW laser
+- Only ~30 harmonic orders needed (highly robust)
+- Initially flat solid targets (easy to produce)
+
+— doi: 10.1103/PhysRevLett.123.105001
+  [KB: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors]
+
+**BG Beam Self-Healing (Pang 2024)**:
+- Bessel-Gaussian beams self-heal after curved PM interaction
+- Secondary focus forms at t ~ 23T₀ with Bessel-like profile
+- Peak intensity exceeds Gaussian-driven by >1 order of magnitude
+
+— doi: 10.1103/PhysRevA.109.043521
+  [KB: /home/zhiping/knowledge_base/paper/2024/2024--Self-healing high-order harmonic generation from curved relativistic plasma mirrors with Bessel-Gaussian beams]
+
+## Ultrahigh-Amplitude IAP in Transmission
+
+**Concept**: Ultrathin foil targets in the relativistically transparent regime generate ultrahigh-amplitude isolated attosecond pulses through electron nanobunch propagation.
+
+— doi: 10.1103/PhysRevApplied.18.024024
+  [KB: /home/zhiping/knowledge_base/paper/2022/2022--Ultrahigh-Amplitude Isolated Attosecond Pulses Generated in the Transmission Regime from Ultrathin Foil]
+
 ## Links
 
 - [[scaling-laws]] — How efficiency varies with parameters
 - [[double-foil-target]] — Detailed double-foil physics
 - [[efficiency-optimization]] — Optimization strategies
 - [[preplasma-scale-length]] — Gradient effects
+- [[attosecond-lighthouse]] — Curved PM for lighthouse

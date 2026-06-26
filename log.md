@@ -385,3 +385,52 @@ Updated wiki pages to include original paper references from 陈自宇 note, rep
 18. **Thaury et al. 2007** (Nat. Phys. 3, 424)
     - CWE vs ROM separation
     - Added to: cwe-mechanism.md
+
+## [2026-06-26] update | doi_core integration — missing papers added to wiki
+
+Systematic review of all 21 doi_core papers against wiki content. Found 4 completely missing papers and 7 papers only in log/entity pages (not in concept/comparison pages).
+
+### Papers integrated:
+
+1. **Gordienko et al. 2005** (PRL 94, 103903) — Coherent Focusing of High Harmonics
+   - Added to: cwe-mechanism.md, chf-mechanism.md
+   - Key content: CWE harmonics coherently focused on curved plasma → extreme intensities, Schwinger limit reachable with I₀ ~ 10²² W/cm²
+
+2. **Vincenti 2019** (PRL 123, 105001) — Curved Relativistic Plasma Mirrors
+   - Added to: preplasma-scale-length.md, attosecond-lighthouse.md, chf-mechanism.md, efficiency-optimization.md, gradient-comparison.md, intensity-comparison.md, target-types.md
+   - Key content: PM curvature from radiation pressure → 10²⁵ W/cm² with 3 PW laser, Γ ~ 10³ gain
+
+3. **Pang et al. 2024** (PRA 109, 043521) — Self-healing HHG with BG beams
+   - Added to: attosecond-lighthouse.md, efficiency-optimization.md, intensity-comparison.md, target-types.md
+   - Key content: BG beams self-heal after curved PM interaction, >1 order of magnitude intensity enhancement
+
+4. **2022 transmission IAP** (PRApplied 18, 024024) — Ultrahigh-Amplitude IAP in Transmission
+   - Added to: isolation-techniques.md, double-foil-target.md, target-types.md
+   - Key content: Ultrathin foil transmission → ultrahigh-amplitude isolated attosecond pulses
+
+5. **Pirozhkov et al. 2006** (Phys. Plasmas 13, 013107) — Sliding Mirror Model
+   - Added to: cse-theory.md, unified-hhg-picture.md, isolation-techniques.md, rom-vs-cse.md
+   - Key content: ε_p ~ a₀ condition, surface current HHG, phase-locked attosecond trains
+
+6. **Cousens et al. 2020** (PRE 101, 053210) — CSE Electron Trajectories
+   - Added to: cse-theory.md, rom-vs-cse.md, scaling-laws.md
+   - Key content: Four-phase trajectory, reflected vs forward CSE, 27 as pulses
+
+7. **Liu et al. 2024** (PRA 109, 043519) — Nanolayer EUV/X-ray
+   - Added to: cse-theory.md
+   - Key content: EUV from propagating nanometer electron layer
+
+8. **Vincenti et al. 2014** (Nat. Commun. 5, 3403) — PM Optical Properties
+   - Added to: preplasma-scale-length.md, attosecond-lighthouse.md, chf-mechanism.md, efficiency-optimization.md, gradient-comparison.md, scaling-laws.md
+   - Key content: x_T = x_i + x_e model, Ψ_n divergence scaling, wavefront compensation
+
+9. **Pan et al. 2019** (HPL 7, e20) — Pre-structured Targets
+   - Added to: efficiency-optimization.md
+   - Key content: 100× enhancement via surface plasma waves
+
+### Entity pages updated:
+- princeton-mikhailova-group.md: Added Mikhailova 2012 (PRL 109, 245005)
+- cea-lidyl-group.md: Added Vincenti 2019 (PRL 123, 105001)
+- mpq-institute.md: Added Pirozhkov 2006, Mikhailova 2012
+
+### Total wiki pages modified: 17

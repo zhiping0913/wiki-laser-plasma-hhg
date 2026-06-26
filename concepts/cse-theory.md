@@ -21,11 +21,23 @@
     21|    doi: 10.1038/nphys2439
     22|    read: true
     23|    sections: [all]
-    24|  - path: /home/zhiping/knowledge_base/paper/2013/2013--Femtosecond x rays from laser-plasma accelerators
-    25|    doi: 10.1103/RevModPhys.85.1
-    26|    read: true
-    27|    sections: [II.A]
-    28|---
+  - path: /home/zhiping/knowledge_base/paper/2013/2013--Femtosecond x rays from laser-plasma accelerators
+    doi: 10.1103/RevModPhys.85.1
+    read: true
+    sections: [II.A]
+  - path: /home/zhiping/knowledge_base/paper/2006/2006--Attosecond pulse generation in the relativistic regime of the laser-foil interaction_ The sliding mirror model
+    doi: 10.1063/1.2158145
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2020/2020--Electron trajectories associated with laser-driven coherent synchrotron emission at the front surface of overdense plasmas
+    doi: 10.1103/PhysRevE.101.053210
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2024/2024--Generation of extreme-ultraviolet and x-ray light from a propagating nanometer electron layer in few-cycle laser interaction with solid targets
+    doi: 10.1103/PhysRevA.109.043519
+    read: true
+    sections: [all]
+---
     29|
     30|# CSE Theory — Coherent Synchrotron Emission
     31|
@@ -112,11 +124,53 @@
    112|  [KB: /home/zhiping/knowledge_base/paper/2011/2011--Ultrarelativistic nanoplasmonics as a route towards extreme-intensity attosecond pulses]
    113|  §IV: "For coherent radiation, the bunch thickness must be smaller than the wavelength of the emitted radiation in the rest frame of the bunch."
    114|
-   115|## Links
-   116|
-   117|- [[rom-theory]] — BGP model, historical predecessor
-   118|- [[unified-hhg-picture]] — BGP and CSE are equivalent conditions
-   119|- [[scaling-laws]] — Edwards' refinements (bunch-width effect)
-   120|- [[double-foil-target]] — CSE in transmission
-   121|- [[preplasma-scale-length]] — Optimal gradient for CSE
+## Sliding Mirror Model
+
+Pirozhkov et al. (2006) developed the sliding mirror model for attosecond pulse generation in the relativistic regime. In this limit, the perpendicular displacement of the reflecting electron layer is suppressed by the charge separation field, and electrons move only along the target surface.
+
+### Key Physics
+- Charge separation field E_ch ~ ε_p mcω₀/e suppresses perpendicular motion when ε_p ≥ a₀
+- Optimal condition: ε_p ~ a₀/2 for HHG, ε_p ~ a₀ for attosecond pulses
+- Harmonic spectrum: power-law decay ~ω⁻² up to ω_cr ~ a₀ω₀, then exponential decay
+- All harmonics are phase-locked → attosecond pulse trains without spectral filtering
+- Single attosecond pulse requires CEP control; optimal CEP ~ π/3 for p-polarization
+
+— doi: 10.1063/1.2158145
+  [KB: /home/zhiping/knowledge_base/paper/2006/2006--Attosecond pulse generation in the relativistic regime of the laser-foil interaction_ The sliding mirror model]
+  Abstract: "The nonlinear electric current caused by the electron motion at relativistic velocity generates the high-order harmonics... These harmonics are phase locked and can produce pulses with attosecond duration."
+
+## Front-Surface CSE Electron Trajectories
+
+Cousens et al. (2020) analyzed electron trajectories at the front surface of opaque overdense plasmas, revealing a four-phase trajectory that produces CSE at two distinct emission points per half-cycle.
+
+### Four-Phase Trajectory
+1. **Phase I**: Restoring Coulomb force (E_x) accelerates electron away from surface; relativistic v_x causes transverse acceleration via -qv_x×B_z
+2. **Phase II**: Laser E_y field opposes B_z-driven acceleration; p_y passes through zero → **REFLECTED emission point** (v_x/c ~ -0.96)
+3. **Phase III**: Electron passes through E_y node/B_z antinode; qv_y×B_z accelerates electron forward (relativistic v_x)
+4. **Phase IV**: -qv_x×B_z brings p_y toward zero → **FORWARD emission point** (v_x/c ~ +0.98); electron enters plasma
+
+### Key Results
+- Reflected emission ~30× stronger than forward (higher bunch density ~250n_c vs ~50n_c)
+- Pulse duration ~27 as (FWHM) for ω/ω_L = 100-200 filtering
+- Figure-eight trajectories occur only in relativistically TRANSPARENT plasmas (thin ~30nm targets)
+- Front-surface loop trajectories occur in OPAQUE plasmas and produce both reflected and forward CSE
+
+— doi: 10.1103/PhysRevE.101.053210
+  [KB: /home/zhiping/knowledge_base/paper/2020/2020--Electron trajectories associated with laser-driven coherent synchrotron emission at the front surface of overdense plasmas]
+
+## Nanolayer EUV/X-ray Generation
+
+Recent work (2024) demonstrated EUV and x-ray generation from a propagating nanometer electron layer formed during few-cycle laser interaction with solid targets, extending CSE physics to the few-cycle regime.
+
+— doi: 10.1103/PhysRevA.109.043519
+  [KB: /home/zhiping/knowledge_base/paper/2024/2024--Generation of extreme-ultraviolet and x-ray light from a propagating nanometer electron layer in few-cycle laser interaction with solid targets]
+
+## Links
+
+- [[rom-theory]] — BGP model, historical predecessor
+- [[unified-hhg-picture]] — BGP and CSE are equivalent conditions
+- [[scaling-laws]] — Edwards' refinements (bunch-width effect)
+- [[double-foil-target]] — CSE in transmission
+- [[preplasma-scale-length]] — Optimal gradient for CSE
+- [[cwe-mechanism]] — Distinct sub-relativistic mechanism
    122|

@@ -9,11 +9,19 @@
      9|    doi: null (PhD thesis, Princeton 2019)
     10|    read: true
     11|    sections: [4.1, 4.3]
-    12|  - path: /home/zhiping/knowledge_base/paper/2026/2026--Efficiency-optimized relativistic plasma harmonics for extreme fields
-    13|    doi: 10.1038/s41586-026-10400-2
-    14|    read: true
-    15|    sections: [1-4]
-    16|---
+  - path: /home/zhiping/knowledge_base/paper/2026/2026--Efficiency-optimized relativistic plasma harmonics for extreme fields
+    doi: 10.1038/s41586-026-10400-2
+    read: true
+    sections: [1-4]
+  - path: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors
+    doi: 10.1103/PhysRevLett.123.105001
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2024/2024--Self-healing high-order harmonic generation from curved relativistic plasma mirrors with Bessel-Gaussian beams
+    doi: 10.1103/PhysRevA.109.043521
+    read: true
+    sections: [all]
+---
     17|
     18|# Intensity Comparison — Laser Intensity Effects on HHG
     19|
@@ -273,7 +281,41 @@
    273|   - Must reach theoretical limit
    274|   - Agreement with simulations
    275|
-   276|## Summary
+   276|## Curved PM Intensity Scaling (Vincenti 2019)
+
+The curved relativistic plasma mirror (CRM) provides an additional intensity gain beyond the driving laser intensity:
+
+### Intensity Gain Components
+- **Temporal Doppler compression**: ~5× (from 2γ² factor)
+- **Spatial focusing by curved PM**: ~200× (from parabolic shape)
+- **Total gain**: Γ ~ 10³
+
+### Scaling with Driving Intensity
+- Higher a₀ → more PM denting → tighter focusing → higher gain
+- Optimal: a₀ ~ 75 (3 PW, 60 J, 20 fs)
+- Result: 10²² → 10²⁵ W/cm² with 3 PW laser
+
+### Requirements
+- 3 PW class laser (currently available at multiple facilities)
+- Optimal gradient: L ~ λ/8 at θ = 45°
+- ~30 harmonic orders contribute (robust)
+
+— doi: 10.1103/PhysRevLett.123.105001
+  [KB: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors]
+
+## BG Beam Enhancement (Pang 2024)
+
+Bessel-Gaussian beams provide an additional intensity enhancement through self-healing:
+
+- Self-healing after curved PM interaction
+- Secondary focus forms at t ~ 23T₀
+- Peak intensity exceeds Gaussian-driven by >1 order of magnitude
+- High-intensity region extended in both space and time
+
+— doi: 10.1103/PhysRevA.109.043521
+  [KB: /home/zhiping/knowledge_base/paper/2024/2024--Self-healing high-order harmonic generation from curved relativistic plasma mirrors with Bessel-Gaussian beams]
+
+## Summary
    277|
    278|| a₀ | Regime | Mechanism | p | Efficiency | Application |
    279||----|--------|-----------|---|------------|-------------|

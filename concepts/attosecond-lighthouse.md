@@ -9,6 +9,18 @@ sources:
     doi: 10.1103/PhysRevResearch.2.043007
     read: true
     sections: [I-III]
+  - path: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors
+    doi: 10.1038/ncomms4403
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors
+    doi: 10.1103/PhysRevLett.123.105001
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2024/2024--Self-healing high-order harmonic generation from curved relativistic plasma mirrors with Bessel-Gaussian beams
+    doi: 10.1103/PhysRevA.109.043521
+    read: true
+    sections: [all]
 confidence: high
 ---
 
@@ -106,6 +118,55 @@ This severely limits the attosecond lighthouse in the ROM regime.
 
 — doi: 10.1103/PhysRevResearch.2.043007 [KB: .../paper.md, section V]
   "isolated attosecond pulses with 10 TW peak power in the XUV range can be generated with PW-class lasers"
+
+## PM Curvature and Divergence Problem (Vincenti 2014)
+
+The PM curvature induced by the preplasma gradient is a critical challenge for the lighthouse effect. Vincenti et al. (2014) showed that:
+
+- PM surface curvature decomposes as x_T = x_i + x_e (ion + electron contributions)
+- Electron denting x_e ~ a_L² · L is instantaneous (sub-cycle)
+- Ion erosion x_i ~ ∫a_L dt is cumulative and irreversible
+- Focusing parameter Ψ_n ∝ n · δ_T / λ_L scales linearly with harmonic order
+- **Harmonic divergence increased by up to factor of 3** for optimal L ~ 0.05-0.1λ
+
+This is the fundamental reason why the lighthouse effect is challenging in the relativistic regime: the PM curvature from optimal HHG conditions (L ~ λ/20 to λ/8) dramatically increases harmonic divergence, making angular separation of successive attosecond pulses nearly impossible.
+
+— doi: 10.1038/ncomms4403
+  [KB: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors]
+
+## Curved PM as CHF Source (Vincenti 2019)
+
+Vincenti (2019) showed that the PM curvature can be exploited as a feature — creating a curved relativistic plasma mirror (CRM) that simultaneously Doppler-upshifts and focuses harmonics to extreme intensities.
+
+### Key Results for Lighthouse
+- PM denting creates a parabolic mirror with focal length f_p = w_L²/(2δ_p)
+- 3D PIC simulations: intensity gain Γ ~ 10³ (5× temporal × 200× spatial)
+- ~100 as pulses at ~10²⁵ W/cm² with 3 PW laser
+- Only ~30 harmonic orders needed (robust)
+- Oblique incidence at θ = 45° creates astigmatism-free focusing
+
+### Implications for Lighthouse
+- The curved PM focusing can compensate for the divergence increase
+- Combined with WFR, the CRM could enable isolated attosecond pulses at extreme intensities
+- But requires careful control of the PM shape (gradient + intensity profile)
+
+— doi: 10.1103/PhysRevLett.123.105001
+  [KB: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors]
+
+## BG Beam Self-Healing (Pang 2024)
+
+Pang et al. (2024) demonstrated that Bessel-Gaussian (BG) beams exhibit self-healing in the relativistic HHG regime, providing an alternative route to control harmonic divergence from curved PMs.
+
+### Key Results
+- BG beams: E = a₀ J₀(r/r₀) exp(-r²/2w₀²)
+- Self-healing survives into relativistic, extreme nonlinear HHG regime
+- After curved PM focus, harmonics diverge but side-lobe energy redistributes toward center
+- Secondary focus with Bessel-like profile forms at t ~ 23T₀
+- Peak intensity of BG-driven harmonics exceeds Gaussian-driven by >1 order of magnitude
+- Self-healed harmonics fitted by Bessel functions: J₀(0.69·y·n)
+
+— doi: 10.1103/PhysRevA.109.043521
+  [KB: /home/zhiping/knowledge_base/paper/2024/2024--Self-healing high-order harmonic generation from curved relativistic plasma mirrors with Bessel-Gaussian beams]
 
 ## Comparison with Other Isolation Techniques
 

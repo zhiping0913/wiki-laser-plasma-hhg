@@ -17,6 +17,14 @@ sources:
     doi: null (tutorial note)
     read: true
     sections: [0.4.3]
+  - path: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors
+    doi: 10.1038/ncomms4403
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors
+    doi: 10.1103/PhysRevLett.123.105001
+    read: true
+    sections: [all]
 confidence: high
 ---
 
@@ -121,6 +129,53 @@ The two-color enhancement persists with gradients:
 
 — Edwards Thesis §5.1.1 [KB: .../thesis.md, line 2153]
   "tenfold enhancement is seen for gradients of L/λ = 0.05 and 0.15"
+
+## Vincenti 2014: PM Curvature from Gradient
+
+Vincenti et al. (2014) developed a complete analytical model for plasma mirror curvature induced by the preplasma gradient. The total PM surface position decomposes as:
+
+**x_T(t) = x_i(t) + x_e(t)**
+
+where:
+- **x_e(t)** = instantaneous electron displacement (sub-cycle, like a spring)
+- **x_i(t)** = cumulative ion boundary drift (slow, hole-boring motion)
+
+### Electron Denting (Instantaneous)
+x_e ~ a_L² · L — increases quadratically with a_L and linearly with gradient L
+
+### Ion Erosion (Cumulative)
+x_i ~ ∫a_L dt · √(1/n₀) — irreversible, grows with pulse duration
+
+### Effect on Harmonic Divergence
+The PM curvature acts as a curved mirror with focusing parameter:
+
+**Ψ_n = 2√2 · δ_T · n/λ_L · (w_n/w_L)²**
+
+- Ψ_n scales LINEARLY with harmonic order n
+- Already significant for n ≥ 3 (Ψ_n ~ 0.6n)
+- **Harmonic divergence increased by up to FACTOR OF 3** for L ~ 0.05-0.1λ
+
+### Wavefront Control
+PM curvature can be compensated by defocusing the driving laser (diverging wavefront), restoring near-diffraction-limited harmonic divergence.
+
+— doi: 10.1038/ncomms4403
+  [KB: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors]
+  Key result: "Harmonic divergence increased by up to factor of 3 compared to flat PM for L ~ 0.05-0.1λ_L"
+
+## Vincenti 2019: Curved PM for Extreme Intensities
+
+Vincenti (2019) proposed using the PM curvature induced by radiation pressure as a feature rather than a problem — creating a curved relativistic plasma mirror (CRM) that simultaneously Doppler-upshifts and focuses harmonics.
+
+### Key Results
+- 3D PIC simulations (WARP+PICSAR) demonstrated intensities ~10²⁵ W/cm²
+- Intensity gain Γ ~ 10³ from incident ~1.2×10²² W/cm²
+- ~5× from temporal Doppler compression + ~200× from spatial focusing
+- Only ~30 harmonic orders needed (robust vs. thousands required in prior schemes)
+- Requires 3 PW laser, 60 J, ~20 fs, a₀ ~ 75
+
+— doi: 10.1103/PhysRevLett.123.105001
+  [KB: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors]
+  Abstract: "intensities above 10²⁵ W/cm² could be reached with a 3 PetaWatt (PW) laser"
 
 ## Effects on Secondary Attosecond Pulses
 

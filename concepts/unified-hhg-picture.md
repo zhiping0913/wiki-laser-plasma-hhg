@@ -17,12 +17,16 @@
     17|    doi: 10.1103/PhysRevLett.93.115002
     18|    read: true
     19|    sections: [all]
-    20|  - path: /home/zhiping/knowledge_base/paper/2007/2007--Bright Multi-keV Harmonic Generation from Relativistically Oscillating Plasma Surfaces
-    21|    doi: 10.1103/PhysRevLett.99.085001
-    22|    read: true
-    23|    sections: [all]
-    24|confidence: high
-    25|---
+  - path: /home/zhiping/knowledge_base/paper/2007/2007--Bright Multi-keV Harmonic Generation from Relativistically Oscillating Plasma Surfaces
+    doi: 10.1103/PhysRevLett.99.085001
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2006/2006--Attosecond pulse generation in the relativistic regime of the laser-foil interaction_ The sliding mirror model
+    doi: 10.1063/1.2158145
+    read: true
+    sections: [all]
+confidence: high
+---
     26|
     27|# Unified HHG Picture — ROM and CSE are the Same Physics
     28|
@@ -116,7 +120,23 @@
    116|  [KB: /home/zhiping/knowledge_base/paper/2007/2007--Bright Multi-keV Harmonic Generation from Relativistically Oscillating Plasma Surfaces]
    117|  [cutoff verified]
    118|
-   119|## Summary
+   119|## Sliding Mirror Model (Complementary Picture)
+
+Pirozhkov et al. (2006) developed an alternative analytical framework — the sliding mirror model — that describes the same physics from a different perspective. In the dense plasma limit, perpendicular electron motion is suppressed by the charge separation field, and electrons oscillate only along the target surface.
+
+### Key results
+- Harmonic spectrum: power-law ~ω⁻² up to cutoff ω_cr ~ a₀ω₀
+- All harmonics phase-locked → attosecond pulse trains
+- Optimal: ε_p = πn₀l/(n_crλ₀) ~ a₀ for efficient HHG
+- Validated by PIC simulations for thin foils
+
+— doi: 10.1063/1.2158145
+  [KB: /home/zhiping/knowledge_base/paper/2006/2006--Attosecond pulse generation in the relativistic regime of the laser-foil interaction_ The sliding mirror model]
+  Abstract: "The nonlinear electric current caused by the electron motion at relativistic velocity generates the high-order harmonics... These harmonics are phase locked."
+
+The sliding mirror model provides the same emission condition as BGP/CSE but emphasizes the role of the surface current and charge-separation field in determining the emission dynamics.
+
+## Summary
    120|
    121|| Aspect | BGP (ROM) | CSE | Unified View |
    122||--------|-----------|-----|--------------|
