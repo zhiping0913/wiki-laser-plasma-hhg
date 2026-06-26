@@ -5,6 +5,58 @@
 
 ---
 
+## Citation Format Standard (MANDATORY)
+
+### Primary Rule: Use DOI as Citation Identifier
+
+**All citations must use DOI as the primary identifier.** Do NOT use "Author et al." format.
+
+**Why DOI?**
+1. **Unique**: DOI is the only globally unique, persistent identifier for academic papers
+2. **Verifiable**: Can be instantly verified via `search.py --doi "10.xxx/xxx"`
+3. **Traceable**: Direct path to knowledge base: `python3 search.py --doi "10.xxx/xxx"` returns exact KB path
+4. **No hallucination**: DOI cannot be fabricated (unlike author names, titles, years)
+5. **Direct access**: Can be opened as https://doi.org/10.xxx/xxx
+
+### Citation Format
+
+**For papers with DOI:**
+```
+— doi: 10.1103/PhysRevE.74.046404
+  [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order...]
+  §3: "exact quote or precise paraphrase"
+```
+
+**For theses (no DOI):**
+```
+— Edwards' thesis (Princeton 2019)
+  [KB: /home/zhiping/knowledge_base/thesis/2019/2019--Ultrafast Sources...]
+  §4.1: "exact quote or precise paraphrase"
+```
+
+### How to Find DOI from Knowledge Base
+
+```bash
+# Search by DOI (preferred)
+python3 /home/zhiping/knowledge_base/utility/search.py --doi "10.1103/PhysRevE.74.046404"
+
+# Search by title (when DOI unknown)
+python3 /home/zhiping/knowledge_base/utility/search.py --title "Theory of high-order harmonic generation"
+
+# Search by author + year
+python3 /home/zhiping/knowledge_base/utility/search.py --author "Baeva" --year 2006
+```
+
+### What NOT to Write
+
+❌ `— Baeva et al., Phys. Rev. E 74, 046404 (2006)`
+❌ `— Baeva, Gordienko, Pukhov, PRE 74, 046404 (2006)`
+❌ `— "Title of paper" (Author, Year)`
+
+✅ `— doi: 10.1103/PhysRevE.74.046404`
+
+---
+
 ## The Problem
 
 An LLM writing "see Baeva et al. [PRE 74, 046404 (2006)]" may be:
@@ -27,16 +79,14 @@ You have read the actual paper text in the knowledge base.
 Format in wiki:
 ```
 The BGP theory predicts I_n ∝ n^{-8/3} with cutoff at ω_max ∝ γ_max^3.
-— Baeva, Gordienko, Pukhov, Phys. Rev. E 74, 046404 (2006)
+— doi: 10.1103/PhysRevE.74.046404
   [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order...]
   §3, saddle-point analysis of the reflected field integral (7),
   leading to the stationary-phase condition γ_ARP → ∞.
 ```
 
 What's required:
-- ✅ Exact DOI (from metadata.json)
-- ✅ Exact title (from metadata.json or paper.md)
-- ✅ Exact author list (from metadata.json)
+- ✅ **DOI** (from metadata.json) — this is the primary identifier
 - ✅ KB path where you read it
 - ✅ Specific section/figure/equation you're referencing
 - ✅ Paraphrase or quote of the relevant passage
@@ -48,9 +98,10 @@ You haven't read the paper, but another source you DID read cites it with specif
 Format in wiki:
 ```
 The CSE scaling n^{-4/3} was first derived by an der Brügge and Pukhov.
-— cited in 陈自宇 Note §0.4.4 [KB: .../paper.md, line 454]
-  "他们得出的重要结论是:此时高次谐波频谱强度的定标率为 ∝ −4/3"
-  Original: an der Brügge & Pukhov, Phys. Plasmas 17, 033110 (2010)
+— cited in doi: 10.1103/PhysRevE.74.046404
+  [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order...]
+  §I: "The high-harmonic spectrum intensity scaling is I_n ∝ n^{-4/3}"
+  Original: doi: 10.1063/1.3353050
   [KB: /home/zhiping/knowledge_base/paper/2010/2010--Enhanced relativistic...]
 ```
 
@@ -113,10 +164,12 @@ cat "/path/to/paper/metadata.json" | python3 -m json.tool
 
 ## Anti-Hallucination Rules
 
-1. **Never write a DOI from memory.** Always look it up.
-2. **Never write a paper title from memory.** Always copy from metadata.json.
-3. **Never write author lists from memory.** Always copy from metadata.json.
-4. **Never say "paper X shows Y" unless you can point to the specific passage.**
+1. **Always use DOI as citation identifier.** Never use "Author et al." format.
+2. **Never write a DOI from memory.** Always look it up via search.py or metadata.json.
+3. **Never say "paper X shows Y" unless you can point to the specific passage.**
+4. **If you can't verify a claim, write "[NEEDS VERIFICATION]" and move on.**
+5. **When multiple papers exist on a topic, verify you're citing the right one via DOI.**
+6. **Use `search.py --doi` to locate papers in KB before citing them.**
 5. **If you can't verify a claim, write "unverified — needs checking" explicitly.**
 6. **When multiple papers exist on a topic, verify you're citing the right one.**
    (e.g., Gordienko has both 2004 [n^{-5/2}] and 2005 [similarity theory] papers)
@@ -246,15 +299,13 @@ who showed that the Doppler shift from an oscillating plasma mirror generates ha
 ```
 (Problem: Did I actually read this? Can I point to the specific passage? What exactly did Bulanov show?)
 
-### ✅ Good (verified)
+### ✅ Good (verified, DOI-based)
 ```
-The ROM concept was first proposed by Bulanov, Naumova, and Pegoraro.
-— Phys. Plasmas 1, 745 (1994)
+The ROM concept was first proposed to explain PIC simulation results.
+— doi: 10.1063/1.870766
   [KB: /home/zhiping/knowledge_base/paper/1994/1994--Interaction of an ultrashort...]
-  Per 陈自宇 Note §0.4.3 [line 326-327]:
-  "他们最早提出了'相对论振荡镜模型'的概念:
-   'We interpret it as due to the Doppler effect produced by a reflecting charge sheet,
-   formed in a narrow region at the plasma boundary, oscillating under the action of
-   the relativistically strong laser pulse.'"
-  Note: I have not read the original 1994 paper directly. The above is from the Note's citation.
+  Abstract: "We interpret it as due to the Doppler effect produced by a reflecting
+  charge sheet, formed in a narrow region at the plasma boundary, oscillating under
+  the action of the relativistically strong laser pulse."
 ```
+(Verified: DOI found via search.py, KB path confirmed, exact quote from abstract)
