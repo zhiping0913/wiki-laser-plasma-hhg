@@ -5,12 +5,20 @@ updated: 2026-06-25
 type: concept
 tags: [hhg, rom, cse, unified, synchrotron]
 sources:
-  - path: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma/paper.md
+  - path: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma
     doi: 10.1103/PhysRevE.74.046404
     read: true
     sections: [II, VII]
-  - path: /home/zhiping/knowledge_base/paper/2012/2012--Isolated Attosecond Pulses from Laser-Driven Synchrotron Radiation/paper.md
+  - path: /home/zhiping/knowledge_base/paper/2012/2012--Isolated Attosecond Pulses from Laser-Driven Synchrotron Radiation
     doi: 10.1103/PhysRevLett.109.245005
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2004/2004--Relativistic Doppler Effect_ Universal Spectra and Zeptosecond Pulses
+    doi: 10.1103/PhysRevLett.93.115002
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2007/2007--Bright Multi-keV Harmonic Generation from Relativistically Oscillating Plasma Surfaces
+    doi: 10.1103/PhysRevLett.99.085001
     read: true
     sections: [all]
 confidence: high
@@ -30,8 +38,9 @@ The radiation condition derived by Baeva et al.:
 
 This means: the longitudinal Lorentz factor is maximized while transverse momentum vanishes.
 
-— Baeva et al., PRE 74, 046404 (2006), §VII
-  "The γ³ scaling of the spectrum cutoff is readily understood using the relativistic γ-factor spikes of the plasma-surface motion... the velocity of the plasma surface in the vicinity of a maximum can be approximated as a parabola."
+— Baeva et al., Phys. Rev. E 74, 046404 (2006)
+  [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
+  §VII: "The γ³ scaling of the spectrum cutoff is readily understood using the relativistic γ-factor spikes of the plasma-surface motion... the velocity of the plasma surface in the vicinity of a maximum can be approximated as a parabola."
 
 ## CSE Condition (from synchrotron analysis)
 
@@ -39,7 +48,8 @@ The radiation condition for coherent synchrotron emission:
 
 **v_∥ → max; a_∥ → 0; v_⊥ → 0; a_⊥ → max**
 
-— Mikhailova et al., PRL 109, 245005 (2012)
+— Mikhailova et al., Phys. Rev. Lett. 109, 245005 (2012)
+  [KB: /home/zhiping/knowledge_base/paper/2012/2012--Isolated Attosecond Pulses from Laser-Driven Synchrotron Radiation]
   "The radiation is emitted when the electron velocity reaches its maximum and the transverse acceleration is at its peak, satisfying the conditions for coherent synchrotron emission."
 
 ## Equivalence Proof
@@ -67,12 +77,17 @@ Since BGP is actually synchrotron radiation (not just Doppler reflection), the c
 
 Not ω_max ∝ γ² (simple Doppler reflection).
 
-— Baeva et al., PRE 74, 046404 (2006), Abstract
-  "The spectrum includes the power-law part I_n ∝ n^{-8/3} for n < √(8α)γ³_max... The cutoff at ∝γ³_max is parametrically larger than the 4γ²_max predicted by the simple oscillating mirror model based on the Doppler effect."
+— Baeva et al., Phys. Rev. E 74, 046404 (2006)
+  [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
+  Abstract: "The spectrum includes the power-law part I_n ∝ n^{-8/3} for n < √(8α)γ³_max... The cutoff at ∝γ³_max is parametrically larger than the 4γ²_max predicted by the simple oscillating mirror model based on the Doppler effect."
 
 **Original papers**:
-- S. Gordienko, A. Pukhov, O. Shorokhov, and T. Baeva, PRL 93, 115002 (2004) [γ² prediction]
-- T. Baeva, S. Gordienko, and A. Pukhov, PRE 74, 046404 (2006) [γ³ prediction, confirmed]
+- S. Gordienko, A. Pukhov, O. Shorokhov, and T. Baeva, PRL 93, 115002 (2004)
+  [KB: /home/zhiping/knowledge_base/paper/2004/2004--Relativistic Doppler Effect_ Universal Spectra and Zeptosecond Pulses]
+  [γ² prediction]
+- T. Baeva, S. Gordienko, and A. Pukhov, PRE 74, 046404 (2006)
+  [KB: /home/zhiping/knowledge_base/paper/2006/2006--Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma]
+  [γ³ prediction, confirmed]
 
 ## Difference Between BGP and CSE
 
@@ -92,11 +107,14 @@ Therefore, CSE produces stronger harmonics than BGP when nanobunches form.
 
 PIC simulations show that HHG emission occurs only when the synchrotron radiation condition is satisfied. Not every oscillation produces efficient HHG — only those where v_∥ → max and a_⊥ → max simultaneously.
 
-— Mikhailova et al., PRL 109, 245005 (2012)
+— Mikhailova et al., Phys. Rev. Lett. 109, 245005 (2012)
+  [KB: /home/zhiping/knowledge_base/paper/2012/2012--Isolated Attosecond Pulses from Laser-Driven Synchrotron Radiation]
   "Our analysis demonstrates that the attosecond pulse generation is governed by the formation of dense electron bunches that undergo coherent synchrotron radiation when the transverse acceleration is maximized."
 
 **Key experimental verification**:
-- B. Dromey, S. Kar, C. Bellei, et al., PRL 99, 085001 (2007) [cutoff verified]
+- B. Dromey, S. Kar, C. Bellei, et al., PRL 99, 085001 (2007)
+  [KB: /home/zhiping/knowledge_base/paper/2007/2007--Bright Multi-keV Harmonic Generation from Relativistically Oscillating Plasma Surfaces]
+  [cutoff verified]
 
 ## Summary
 

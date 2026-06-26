@@ -5,15 +5,22 @@ updated: 2026-06-25
 type: concept
 tags: [hhg, cwe, sub-relativistic, plasma-gradient, attosecond]
 sources:
-  - path: /home/zhiping/knowledge_base/paper/2006/2006--Coherent-Wake-Emission-of-High-Order-Harmonics-from-Overdense-Plasmas/paper.md
+  - path: /home/zhiping/knowledge_base/paper/2006/2006--Coherent Wake Emission of High-Order Harmonics from Overdense Plasmas
     doi: 10.1103/PhysRevLett.96.125004
     read: true
     sections: [all]
-  - path: /home/zhiping/knowledge_base/paper/2010/2010--High-order-harmonic-and-attosecond-pulse-generation-on-plasma-mirrors/paper.md
+  - path: /home/zhiping/knowledge_base/paper/2010/2010--High-order harmonic and attosecond pulse generation on plasma mirrors basic mechanisms
     doi: 10.1088/0953-4075/43/21/213001
     read: true
+    sections: [1, 2]
+  - path: /home/zhiping/knowledge_base/paper/2007/2007--Plasma mirrors for ultrahigh-intensity optics
+    doi: 10.1038/nphys595
+    read: true
     sections: [all]
-confidence: high
+  - path: /home/zhiping/knowledge_base/paper/2013/2013--Coherent wake emission spectroscopy as a probe of steep plasma density profiles
+    doi: 10.1103/PhysRevE.87.035101
+    read: true
+    sections: [all]
 ---
 
 # CWE — Coherent Wake Emission
@@ -32,11 +39,9 @@ Coherent Wake Emission (CWE) is the dominant HHG mechanism for **sub-relativisti
 
 4. **Coherent emission**: The plasma oscillations coherently radiate electromagnetic fields, producing harmonics up to the plasma frequency
 
-— Thaury & Quéré, J. Phys. B 43, 213001 (2010), §2
-  "CWE starts occurring at moderately high intensities (I ≃ 10¹⁶ W/cm²) and is triggered by laser-driven electron bunches that excite collective electronic plasma oscillations in the density gradient between vacuum and the plasma bulk."
-
-**Original CWE paper**:
-- F. Quéré, C. Thaury, P. Monot, S. Dobosz, Ph. Martin, J. P. Geindre, and P. Audebert, Phys. Rev. Lett. 96, 125004 (2006)
+— Thaury & Quéré, J. Phys. B 43, 213001 (2010)
+  [KB: /home/zhiping/knowledge_base/paper/2010/2010--High-order harmonic and attosecond pulse generation on plasma mirrors basic mechanisms]
+  §2: "CWE starts occurring at moderately high intensities (I ≃ 10¹⁶ W/cm²) and is triggered by laser-driven electron bunches that excite collective electronic plasma oscillations in the density gradient between vacuum and the plasma bulk."
 
 ## Key Characteristics
 
@@ -63,11 +68,9 @@ Coherent Wake Emission (CWE) is the dominant HHG mechanism for **sub-relativisti
 - Harmonics up to γ³ ω_L
 - Phase-locked attosecond pulses
 
-— Thaury & Quéré, J. Phys. B 43, 213001 (2010), §1
-  "Two main harmonic generation processes on PM have been identified in the literature... CWE starts occurring at moderately high intensities... The second mechanism, called 'relativistic oscillating mirror' (ROM), occurs at even higher intensities."
-
-**Key experimental paper demonstrating CWE**:
-- F. Quéré, C. Thaury, P. Monot, S. Dobosz, Ph. Martin, J. P. Geindre, and P. Audebert, Phys. Rev. Lett. 96, 125004 (2006)
+— Thaury & Quéré, J. Phys. B 43, 213001 (2010)
+  [KB: /home/zhiping/knowledge_base/paper/2010/2010--High-order harmonic and attosecond pulse generation on plasma mirrors basic mechanisms]
+  §1: "Two main harmonic generation processes on PM have been identified in the literature... CWE starts occurring at moderately high intensities... The second mechanism, called 'relativistic oscillating mirror' (ROM), occurs at even higher intensities."
 
 ## CWE as Gradient Diagnostic
 
@@ -75,27 +78,32 @@ CWE harmonics can serve as a **diagnostic** of the plasma density gradient:
 - Harmonic spectrum shape encodes the density profile
 - Used to measure L in real-time during experiments
 
-**Original paper on CWE diagnostics**:
-- A. Malvache, A. Borot, F. Quéré, and R. Lopez-Martens, Phys. Rev. E 87, 035101 (2013)
+— Malvache et al., Phys. Rev. E 87, 035101 (2013)
+  [KB: /home/zhiping/knowledge_base/paper/2013/2013--Coherent wake emission spectroscopy as a probe of steep plasma density profiles]
+  (Full paper read — CWE as gradient diagnostic)
 
 ## Historical Context
 
 ### 2006: Discovery
+
 Quéré et al. first proposed and demonstrated CWE:
 - 50 fs, 1 TW laser at 45° oblique incidence
 - Observed harmonics 16-18 from solid target
 - Identified as distinct from ROM
 
-**Original paper**:
-- F. Quéré, C. Thaury, P. Monot, S. Dobosz, Ph. Martin, J. P. Geindre, and P. Audebert, Phys. Rev. Lett. 96, 125004 (2006)
+— Quéré et al., Phys. Rev. Lett. 96, 125004 (2006)
+  [KB: /home/zhiping/knowledge_base/paper/2006/2006--Coherent Wake Emission of High-Order Harmonics from Overdense Plasmas]
+  (Full paper read — CWE discovery paper)
 
 ### 2007: Systematic confirmation
+
 Thaury et al. provided systematic experimental evidence:
 - Clear separation of CWE and ROM regimes
 - Identified the role of plasma gradient
 
-**Original paper**:
-- C. Thaury, F. Quéré, J.-P. Geindre, G. Bonnaud, P. Monot, and P. Martin, Nat. Phys. 3, 424–429 (2007)
+— Thaury et al., Nat. Phys. 3, 424–429 (2007)
+  [KB: /home/zhiping/knowledge_base/paper/2007/2007--Plasma mirrors for ultrahigh-intensity optics]
+  (Full paper read — systematic CWE/ROM separation)
 
 ## Relevance to Attosecond Source Development
 
@@ -108,11 +116,6 @@ For attosecond source development, CWE is generally **avoided** by using:
 - High-contrast pulses (to maintain steep gradient)
 - Relativistic intensities (a₀ > 1)
 - Short pulse durations (to prevent gradient expansion)
-
-However, CWE remains important as:
-- A **diagnostic tool** for gradient characterization
-- A **benchmark** for distinguishing HHG mechanisms
-- The dominant mechanism in some experimental conditions
 
 ## Links
 
