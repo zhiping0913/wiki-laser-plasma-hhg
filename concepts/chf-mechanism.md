@@ -25,6 +25,18 @@ sources:
     doi: 10.1038/ncomms4403
     read: true
     sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2009/2009--Diffraction-limited performance and focusing of high harmonics from relativistic plasmas/paper.md
+    doi: 10.1038/nphys1158
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2010/2010--Geometrical optimization of an ellipsoidal plasma mirror toward tight focusing of ultra-intense laser pulse/paper.md
+    doi: 10.1088/1742-6596/244/3/032008
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2023/2023--Plasma mirrors as a path to the Schwinger limit theoretical and numerical developments/paper.md
+    doi: 10.1140/epjs/s11734-023-00909-2
+    read: true
+    sections: [all]
 confidence: high
 ---
 
@@ -105,11 +117,73 @@ For coherent addition at focus:
 - High harmonic generation from plasma mirrors (up to keV)
 - Good spatial coherence for low harmonics
 - Attosecond phase locking
+- **Diffraction-limited harmonic emission** (Dromey 2009)
+- **Surface smoothing mechanism** (Dromey 2009)
+- **Ellipsoidal PM focusing** (Nakatsutsumi 2010)
 
 ### Not yet demonstrated
 - Focused harmonic intensity approaching Schwinger limit
 - Full wavefront characterization of high harmonics
 - Systematic CHF experiments
+
+### Key Experimental Results
+
+#### Diffraction-Limited Harmonic Emission (Dromey 2009)
+
+Dromey et al. (2009) provided the **first quantitative evidence** that harmonics from relativistically oscillating plasma surfaces can achieve diffraction-limited performance. This is crucial for CHF because it confirms that the coherence properties of the driving laser are preserved in the emitted harmonics.
+
+**Key findings**:
+- ROM harmonics emitted into a narrow on-axis cone (~diffraction limit)
+- CWE harmonics scattered into large angles (off-axis)
+- Clear spatial separation between ROM and CWE mechanisms
+- Harmonics insensitive to initial surface roughness (φ_r.m.s. up to ~λ_n)
+
+**Surface smoothing mechanism**:
+- Electron trajectories extend many times the original surface roughness
+- Transverse and longitudinal motion averages over small-scale roughness
+- Plasma expansion phase (~100 fs) enables additional smoothing
+- Result: smooth relativistic mirror surface even for rough initial targets
+
+**Surface denting effects**:
+- Ponderomotive pressure pushes plasma surface inward
+- Creates curved wavefront → harmonics pass through intermediate focus
+- Dent depth ~35 nm (Astra) to ~300 nm (Vulcan)
+- All harmonic orders exhibit constant divergence (curved wavefront signature)
+
+**Intrinsic phase effects**:
+- Harmonic phase depends on target density: φ_n ∝ (1 - N/N_crit)^(1/2)
+- Intensity-dependent phase from ponderomotive pressure
+- Can be controlled by tailoring laser intensity distribution
+
+— doi: 10.1038/nphys1158
+  [KB: /home/zhiping/knowledge_base/paper/2009/2009--Diffraction-limited performance and focusing of high harmonics from relativistic plasmas/paper.md]
+  Abstract: "the occurrence of surface smoothing on the scale of the wavelength of the generated harmonics, and plasma denting of the irradiated surface, enables the production of high-quality X-ray beams focused down to the diffraction limit"
+
+#### Ellipsoidal Plasma Mirror Focusing (Nakatsutsumi 2010)
+
+Nakatsutsumi et al. (2010) developed **compact ellipsoidal plasma mirror systems** for tight focusing of ultra-intense laser pulses, demonstrating a practical approach to achieve the high intensities needed for CHF.
+
+**Key results**:
+- Extremely low f-number: f/# = 0.4 (compared to standard f/2.7)
+- Spot size reduction: 1/5 of standard focusing
+- Compact design: <1 cm³ volume
+- Plasma mirror regime: debris protection + contrast enhancement
+
+**Technical details**:
+- Confocal ellipsoid geometry
+- Plasma surface created by prepulse
+- Main pulse reflected from curved plasma surface
+- Achieves significant intensity enhancement without modifying laser system
+
+**Relevance to CHF**:
+- Demonstrates feasibility of curved plasma optics for focusing
+- Shows that plasma mirrors can be used as compact, high-quality focusing elements
+- Provides a practical route to achieve the tight focusing needed for CHF
+- Combined with harmonic generation, could enable extreme intensity focusing
+
+— doi: 10.1088/1742-6596/244/3/032008
+  [KB: /home/zhiping/knowledge_base/paper/2010/2010--Geometrical optimization of an ellipsoidal plasma mirror toward tight focusing of ultra-intense laser pulse/paper.md]
+  Abstract: "very compact (<1 cm³) extremely low f-number (f/# = 0.4) confocal ellipsoid focusing systems... 1/5 reduction of the spot size compared to standard focusing"
 
 ## Theoretical Framework
 
@@ -175,6 +249,29 @@ Key points from the paper:
 
 — Quéré and Vincenti, High Power Laser Sci. Eng. 9, e6 (2021) [KB: .../paper.md, sections 1-4]
   "approaching the Schwinger limit in the coming years by applying this scheme to the latest generation of petawatt-class lasers is a challenging but realistic objective"
+
+### CRM Review and Numerical Methods (Vincenti 2023)
+
+Vincenti et al. (2023) provided a comprehensive review of the CRM paradigm and the pseudo-spectral PIC codes required for accurate 3D simulations.
+
+**CRM Paradigm**:
+- Two intensification mechanisms: (i) temporal compression by relativistic Doppler effect, (ii) tight focusing of Doppler-upshifted light
+- Single laser beam both creates the mirror AND reflects off it (no two-beam collision needed)
+- Surface naturally curved by radiation pressure (plasma denting) — a realistic CRM implementation
+
+**Pseudo-Spectral PIC Codes**:
+- Standard FDTD suffers from numerical dispersion, artificial vacuum index, nonphysical refraction of Doppler harmonics
+- PSATD (Pseudo-Spectral Analytical Time Domain): analytically solves Maxwell's equations in Fourier space — eliminates BOTH spatial AND temporal numerical dispersion
+- PICSAR library: developed at CEA + LBNL for exascale; "local" FFT method avoids all-to-all communications, scales to 100k+ cores
+
+**Path to Schwinger**:
+- QED critical field: E_S ~ 1.3 × 10¹⁶ V/cm, I_S ~ 4.6 × 10²⁹ W/cm²
+- Current PW lasers reach ~5.5 × 10²² W/cm² (record); CRM can bridge the gap
+- 3D simulations with WarpX + PICSAR demonstrated CRM as realistic implementation
+- Exascale computing required for most challenging simulations
+
+— doi: 10.1140/epjs/s11734-023-00909-2
+  [KB: /home/zhiping/knowledge_base/paper/2023/2023--Plasma mirrors as a path to the Schwinger limit theoretical and numerical developments]
 
 ## Relevance to ULMI Lab Research
 

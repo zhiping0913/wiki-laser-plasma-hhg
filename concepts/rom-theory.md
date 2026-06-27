@@ -57,27 +57,51 @@ When an intense laser (I₀ ≥ 10¹⁸ W/cm², a₀ ≥ 1) hits a solid-density
 
 ### 1994: Concept proposed
 
-Bulanov, Naumova, and Pegoraro first proposed the ROM concept to explain PIC simulation results.
+Bulanov, Naumova, and Pegoraro first proposed the ROM concept to explain PIC simulation results. They showed that harmonics arise from reflection off an oscillating charge sheet at the plasma boundary, using Lorentz transformation to reduce oblique incidence to normal incidence in the boosted frame.
 
-— Bulanov, Naumova, Pegoraro, Phys. Plasmas 1, 745 (1994)
+**Key physics**:
+- Lorentz transformation: ω' = ω·cos(θ), reduces oblique to normal incidence (Bourdier method)
+- Plasma resonance saturation: S = max{S_N, S_R, S_T} where S_N = η^(1/2) (trajectory intersection), S_R = a^(2/3) (relativistic detuning), S_T = 1/(π·N_p) (pulse duration)
+- Reflected field from oscillating charge sheet: E_y ∝ n'·e·l·v_y(t*) / [c - (dξ/dt*)]
+- Expansion in (v_y/c) generates ALL harmonics (not just odd)
+- Vacuum heating: for η = r_E/L > 1, electrons expelled into vacuum; max absorption at θ ~ 35° for p-pol
+
+— doi: 10.1063/1.870766
   [KB: /home/zhiping/knowledge_base/paper/1994/1994--Interaction of an ultrashort, relativistically strong laser pulse with an overdense plasma]
-  Abstract: "We interpret it as due to the Doppler effect produced by a reflecting charge sheet, formed in a narrow region at the plasma boundary, oscillating under the action of the relativistically strong laser pulse."
+  Abstract: "We interpret it as due to the Doppler effect produced by a reflecting charge sheet, formed in a narrow region at the plasma boundary, oscillating under the action of the relativistically strong laser pulse." 
 
 ### 1996: Fluid model development
 
-Lichters, Meyer-ter-Vehn, and Pukhov developed the full fluid equations for ROM and created the LPIC++ PIC code.
+Lichters, Meyer-ter-Vehn, and Pukhov developed the ROM into a quantitative model with full cold relativistic fluid equations and the LPIC++ PIC code.
 
-— Lichters, Meyer-ter-Vehn, Pukhov, Phys. Plasmas 3, 3425 (1996)
+**Key physics**:
+- Relativistic cold plasma fluid equations: surface position X(t) ~ -X_s·cos(2ω₀·cos(α)·t - φ)
+- Surface amplitude limit: X_s·cos(α) < λ₀/(4π) ~ 0.08λ₀
+- Retarded reflection is ESSENTIAL: t_ret = t - X(t_ret)/c + x/c (must be solved iteratively)
+- Analytical spectrum via Bessel functions: E ~ Σ_n J_n(ε)·sin((2n+1)ω₀t), ε = k₀·X_s
+- **Selection rules**: oblique p-pol → ALL harmonics p-pol; oblique s-pol → odd s-pol, even p-pol; normal linear → odd only; circular normal → NO harmonics
+- Model reproduces PIC spectra to ~60th harmonic with just 1-2 adjusted parameters
+
+— doi: 10.1063/1.871619
   [KB: /home/zhiping/knowledge_base/paper/1996/1996--Short-pulse laser harmonics from oscillating plasma surfaces driven at relativistic intensity]
   (Full paper read)
 
-### 1996: Simple harmonic model (fails)
+### 1996: Phase modulation model
 
-von der Linde and Rzązewski assumed simple harmonic oscillation for the mirror, but predicted s-polarization produces stronger harmonics than p-polarization — contradicts experiments.
+von der Linde and Rzązewski provided the simplest, most transparent analytical treatment of ROM — the phase modulation interpretation with Bessel function spectra.
 
-— von der Linde, Rzązewski, Appl. Phys. B 63, 499 (1996)
+**Key physics**:
+- Phase modulation parameter: χ = (2ω₀·s₀/c)·cos(θ) — determines harmonic efficiency
+- Harmonic spectra via Bessel functions: E_R ~ e^{-iω₀t} · Σ_n J_n(χ) · e^{-in·ω_m·t}
+- Surface oscillation amplitude: s₀/λ = (1/π)·(ω/ω_p)³ · a₀² (s-pol, normal incidence)
+- p-pol at ~45° is optimal: constructive interference of E-fields at surface enhances driving force
+- s-pol has destructive interference at normal incidence → weaker harmonics
+- Lower plasma density (yet still overdense) enhances harmonics via (ω/ω_p)³ factor
+- **Limitation**: simple harmonic assumption predicts s-pol stronger than p-pol — contradicts experiments (fails for s-pol polarization dependence)
+
+— doi: 10.1007/BF01828947
   [KB: /home/zhiping/knowledge_base/paper/1996/1996--High-order optical harmonic generation from solid surfaces]
-  (Full paper read — simple harmonic assumption leads to incorrect polarization dependence)
+  (Full paper read — phase modulation model with Bessel function spectra)
 
 ### 2004: Gordienko's breakthrough — saddle-point analysis
 

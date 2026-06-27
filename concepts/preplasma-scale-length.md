@@ -25,6 +25,14 @@ sources:
     doi: 10.1103/PhysRevLett.123.105001
     read: true
     sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2009/2009--Diffraction-limited performance and focusing of high harmonics from relativistic plasmas/paper.md
+    doi: 10.1038/nphys1158
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2013/
+    doi: 10.1103/PhysRevLett.110.175002
+    read: true
+    sections: [all]
 confidence: high
 ---
 
@@ -120,6 +128,29 @@ The weakened nonlinearity makes isolation more difficult:
 — Edwards Thesis §4.1.5 [KB: .../thesis.md, line 1736]
   "the presence of a finite gradient makes the creation of isolated attosecond pulses more difficult"
 
+## Dollar 2013: Optimal Scale Length at Ultrahigh Intensity
+
+Dollar et al. (2013) systematically studied HHG scaling at I > 10²¹ W/cm², finding the optimal preplasma scale length and its physical origin.
+
+### Three Regimes
+- **Ultrasharp** (L_s ~ λ/60): Too steep, very weak harmonics
+- **Optimal** (L_s ~ c/ω₀ ~ 0.2λ): Clear harmonics up to 60th order, best power-law scaling (p ~ 4.3-4.8)
+- **Too long** (L_s > 3λ/4): Parametric instabilities (SRS, TPD) destroy coherence
+
+### Physical Insight
+Balance of two competing effects:
+- Shorter L_s → stronger restoring force, limited Doppler shift
+- Longer L_s → parametric instabilities near n_c/4 absorb laser energy
+
+### Key Result
+- Optimal L_s,opt = c/ω₀ (the relativistic critical density condition S = 1)
+- At relativistic critical density: n_c^Rel ~ n_c · a₀
+- For exponential profiles, optimal dynamics are independent of a₀ (self-similarity)
+
+— doi: 10.1103/PhysRevLett.110.175002
+  [KB: /home/zhiping/knowledge_base/paper/2013/]
+  Abstract: "The optimal scale length for harmonic generation is shown to be L_s = c/ω₀, balancing plasma wave excitation against restoring force strength"
+
 ## Effects on Two-Color Enhancement
 
 The two-color enhancement persists with gradients:
@@ -176,6 +207,50 @@ Vincenti (2019) proposed using the PM curvature induced by radiation pressure as
 — doi: 10.1103/PhysRevLett.123.105001
   [KB: /home/zhiping/knowledge_base/paper/2019/2019--Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors]
   Abstract: "intensities above 10²⁵ W/cm² could be reached with a 3 PetaWatt (PW) laser"
+
+## Surface Smoothing Mechanism (Dromey 2009)
+
+Dromey et al. (2009) demonstrated that the plasma surface undergoes **self-smoothing** during the interaction, which is crucial for maintaining harmonic quality even with imperfect initial targets.
+
+### Key Experimental Findings
+
+**Harmonics insensitive to surface roughness**:
+- Tested targets with φ_r.m.s. from <1 nm to 164 nm
+- Harmonics observed for φ_r.m.s. up to ~λ_n (harmonic wavelength)
+- No significant change in angular distribution or signal level
+- Contrary to expectation: roughness ~λ_n should cause diffuse reflection
+
+**Physical mechanism**:
+- Electron trajectories extend many times the original surface roughness
+- Transverse and longitudinal motion averages over small-scale roughness
+- Plasma expansion phase (~100 fs) enables additional smoothing
+- Result: smooth relativistic mirror surface even for rough initial targets
+
+**Critical roughness threshold**:
+- For φ_r.m.s. ~ λ_Laser (164 nm): no ROM harmonics observed
+- CWE harmonics still produced but scattered into large angles
+- Surface smoothing works for roughness << λ_Laser
+
+### Implications for Preplasma Effects
+
+**Gradient-smoothing relationship**:
+- Preplasma gradient creates density profile
+- Surface smoothing operates on top of gradient effects
+- Even with gradient, surface can remain smooth for HHG
+
+**Practical implications**:
+- Target quality requirements less stringent than expected
+- Surface roughness not limiting factor for HHG efficiency
+- Focus on controlling gradient (L) rather than surface finish
+
+**Connection to PM denting**:
+- Surface denting from ponderomotive pressure creates curvature
+- But surface smoothing preserves local flatness
+- Combined: curved but smooth PM surface
+
+— doi: 10.1038/nphys1158
+  [KB: /home/zhiping/knowledge_base/paper/2009/2009--Diffraction-limited performance and focusing of high harmonics from relativistic plasmas/paper.md]
+  Abstract: "the occurrence of surface smoothing on the scale of the wavelength of the generated harmonics, and plasma denting of the irradiated surface, enables the production of high-quality X-ray beams focused down to the diffraction limit"
 
 ## Effects on Secondary Attosecond Pulses
 

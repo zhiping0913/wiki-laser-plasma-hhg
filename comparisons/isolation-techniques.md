@@ -1,9 +1,31 @@
 ---
 title: Isolation Techniques Comparison — Methods for Single Attosecond Pulses
 created: 2026-06-25
-updated: 2026-06-25
+updated: 2026-06-26
 type: comparison
 tags: [attosecond, isolation, gating, comparison]
+sources:
+  - path: /home/zhiping/knowledge_base/paper/2025/2025--Isolated attosecond pulses generated from a relativistic plasma mirror via noncollinear gating/paper.md
+    doi: 10.1103/PhysRevResearch.7.013216
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2022/2022--Divergence gating towards far-field isolated attosecond pulses/paper.md
+    doi: 10.1088/1367-2630/ac59ec
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2006/2006--Attosecond pulse generation in the relativistic regime of the laser-foil interaction_ The sliding mirror model
+    doi: 10.1063/1.2158145
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2012/2012--Isolated Attosecond Pulses from Laser-Driven Synchrotron Radiation/paper.md
+    doi: 10.1103/PhysRevLett.109.245005
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2020/2020--Techniques to generate intense isolated attosecond pulses from relativistic plasma mirrors/paper.md
+    doi: 10.1103/PhysRevResearch.2.043007
+    read: true
+    sections: [all]
+confidence: high
 ---
 
 # Isolation Techniques Comparison
@@ -95,39 +117,68 @@ Generating isolated attosecond pulses (IAPs) from relativistic HHG is critical f
 
 ### 4. Noncollinear Gating
 
-**Principle**: Two laser pulses at small angle; their superposition creates wavefront rotation for a single cycle.
+**Principle**: A weak single-cycle gating pulse superposed at a small angle deflects one attosecond pulse to a different angular direction, enabling spatial filtering in the far field.
+
+**Mechanism**:
+- Main pulse (intense, long) generates attosecond pulse train
+- Gating pulse (weak, single-cycle) deflects one AP via wavefront rotation
+- Deflection angle: φ(t) = θ·ξ(t)/(1+ξ(t)), where ξ(t) = E₂(t)/E₁(t)
+- Isolation condition: φ(t) - φ(t±T) ≥ δ (harmonic divergence)
+- Gating pulse can be TWO ORDERS OF MAGNITUDE weaker than main pulse (~10¹⁹ W/cm²)
 
 **Requirements**:
 - Main intense pulse + weak gating pulse
-- Controlled angle and delay
-- Single-cycle gating pulse
+- Superposition angle θ ~ 170 mrad
+- Single-cycle gating pulse (τ₂ ≤ T₀·√(2ln2/[ln(φ₀)-ln(φ₀-δ)]))
 
 **Status**: Demonstrated (Kim 2025)
 
 **Advantages**:
 - Works with multi-cycle main pulse
 - Direct access to each attosecond pulse
-- Plasma denting diagnostics
+- Plasma denting diagnostics: reconstructs time-resolved plasma surface position
+- Compatible with existing high-power laser technology
 
-**Key Paper**: Kim et al., PRR 7, 013216 (2025)
+**Key Results** (2D PIC, SMILEI):
+- Isolated attosecond pulse of 399 as duration
+- Spatial filtering range: 10-45 mrad separates IAP from train
+- Relaxed gating pulse: 1.5 optical cycles (4 fs) also works
+- Plasma surface pushed inward at ~0.0148c average speed
+
+— doi: 10.1103/PhysRevResearch.7.013216
+  [KB: /home/zhiping/knowledge_base/paper/2025/2025--Isolated attosecond pulses generated from a relativistic plasma mirror via noncollinear gating]
 
 ### 5. Divergence Gating
 
-**Principle**: Chirped laser provides different wavefronts for each cycle; optimal defocusing creates minimum divergence only at peak.
+**Principle**: A chirped laser has different wavelengths at each optical cycle → different Rayleigh lengths → different wavefront curvatures. At optimal defocused distance, the convex incident wavefront EXACTLY offsets concave PM focusing ONLY at the peak cycle → flat reflected wavefront → minimum divergence. Off-peak cycles have curved wavefronts → large divergences → decay faster in far field.
+
+**Mechanism**:
+- Reflected wavefront curvature: R_r = (x_f² + (1+s·ξ)²·x_R0²)/(x_f - b₀·(1+s·ξ)²·x_R0)
+- At ξ=0 with optimal x_f = b₀·x_R₀: R_r^opt → ∞ (flat wavefront at peak cycle)
+- Far-field intensity: I_n^far ~ I_n^near · β_n² · θ_n^{-2} (inversely proportional to divergence squared)
+- Gating ratio: Γ_n(0)/Γ_n(±T₀) = 1 + 4n²β_n⁴b₀²s²T₀² (grows with harmonic order n and chirp s)
 
 **Requirements**:
-- Chirped driving laser
-- Controlled defocusing
-- Appropriate plasma gradient
+- Chirped driving laser (Δω ~ 0.5·ω₀)
+- Controlled defocusing (x_f = b₀·x_R₀, b₀ depends on preplasma L)
+- Appropriate plasma gradient (L ~ 0.1λ₀)
 
 **Status**: Demonstrated (Zhang 2022)
 
 **Advantages**:
 - Works with chirped pulses
-- mJ-level IAPs
-- Low-order harmonics preserved
+- mJ-level IAPs (~10¹⁶ W/cm², 10¹⁷-10¹⁸ W/sr)
+- Low-order harmonics preserved (filter down to ~10 eV)
+- Without any filter: 49 as IAP at 1.8 × 10¹⁶ W/cm²
+- Robust across parameter space (bandwidth, scale length, CEP)
+- Water-window regime (282-533 eV) accessible
 
-**Key Paper**: Zhang et al., NJP 24, 033038 (2022)
+**Key Results** (3D PIC, EPOCH + TDNFFT):
+- Sub-50 as IAPs with ~mJ energy in far field
+- Works at 10²⁰ W/cm² intensity (100 TW class facilities)
+
+— doi: 10.1088/1367-2630/ac59ec
+  [KB: /home/zhiping/knowledge_base/paper/2022/2022--Divergence gating towards far-field isolated attosecond pulses]
 
 ### 6. Double-Foil Target (Transmission)
 

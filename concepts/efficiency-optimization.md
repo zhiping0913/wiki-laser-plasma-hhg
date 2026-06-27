@@ -29,6 +29,14 @@ sources:
     doi: 10.1103/PhysRevA.109.043521
     read: true
     sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2010/2010--Geometrical optimization of an ellipsoidal plasma mirror toward tight focusing of ultra-intense laser pulse/paper.md
+    doi: 10.1088/1742-6596/244/3/032008
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2015/2014--Plasma-based creation of short light pulses analysis and simulation of amplification and focusing/paper.md
+    doi: 10.1088/0741-3335/57/1/014002
+    read: true
+    sections: [all]
 confidence: high
 ---
 
@@ -183,6 +191,54 @@ Pang et al. (2024) showed that Bessel-Gaussian beams can self-heal after interac
 
 — doi: 10.1103/PhysRevA.109.043521
   [KB: /home/zhiping/knowledge_base/paper/2024/2024--Self-healing high-order harmonic generation from curved relativistic plasma mirrors with Bessel-Gaussian beams]
+
+## Ellipsoidal PM Focusing for Extreme Intensities
+
+Nakatsutsumi et al. (2010) demonstrated a practical approach to achieve the tight focusing needed for CHF using compact ellipsoidal plasma mirror systems.
+
+### Key Results
+- **Extremely low f-number**: f/# = 0.4 (compared to standard f/2.7)
+- **Spot size reduction**: 1/5 of standard focusing
+- **Compact design**: <1 cm³ volume
+- **Plasma mirror regime**: debris protection + contrast enhancement
+
+### Technical Implementation
+- Confocal ellipsoid geometry
+- Plasma surface created by prepulse
+- Main pulse reflected from curved plasma surface
+- Achieves significant intensity enhancement without modifying laser system
+
+### Relevance to Efficiency Optimization
+- **Intensity enhancement**: Lower f-number → higher focused intensity
+- **Practical implementation**: Compact, robust design for experiments
+- **Combined with HHG**: Could enable extreme intensity harmonic focusing
+- **Scalability**: Can be adapted for different laser parameters
+
+— doi: 10.1088/1742-6596/244/3/032008
+  [KB: /home/zhiping/knowledge_base/paper/2010/2010--Geometrical optimization of an ellipsoidal plasma mirror toward tight focusing of ultra-intense laser pulse/paper.md]
+  Abstract: "very compact (<1 cm³) extremely low f-number (f/# = 0.4) confocal ellipsoid focusing systems... 1/5 reduction of the spot size compared to standard focusing"
+
+## Plasma Amplification as Alternative Path (Riconda 2015)
+
+Riconda et al. (2015) explored plasma-based amplification and focusing as an alternative route to extreme intensities, using stimulated Brillouin scattering (SBS) in the strong-coupling regime.
+
+### Key Concept
+- Plasma as damage-free optics: no damage threshold (material already fully ionized)
+- SBS amplification: pump pulse (ps) collides head-on with seed (fs), energy transfer via ion-acoustic wave
+- Strong-coupling SBS (sc-SBS): characteristic timescale ~ tens of fs
+
+### Key Equations
+- Threshold: I_p·λ₀² > 10⁻²·T_e^{3/2}·√(Z/A)·(n_c/n_e)·√(1-n_e/n_c) [10¹⁴ W/cm², μm, keV]
+- Strong-coupling quasi-mode frequency: ω_sc = (1+i√3)/2 · (k₀²·v_osc²·ω_pi²/ω₀)^{1/3}
+- Plasma lens focusing length: L_focus = D_L·(n_c·a₀/n_e)^{1/2}
+
+### Key Results
+- sc-SBS amplification preserves beam quality (flat wavefront) for 80 fs seeds
+- Combined amplification + focusing could reach 10²⁰-10²² W/cm²
+- Plasma mirror handles up to 1 kJ/cm² fluence (vs ~1 J/cm² for solid optics)
+
+— doi: 10.1088/0741-3335/57/1/014002
+  [KB: /home/zhiping/knowledge_base/paper/2015/2014--Plasma-based creation of short light pulses analysis and simulation of amplification and focusing]
 
 ## Path to CHF
 

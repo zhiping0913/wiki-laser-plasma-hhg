@@ -434,3 +434,106 @@ Systematic review of all 21 doi_core papers against wiki content. Found 4 comple
 - mpq-institute.md: Added Pirozhkov 2006, Mikhailova 2012
 
 ### Total wiki pages modified: 17
+
+## [2026-06-26] ingest | Dromey 2009 and Nakatsutsumi 2010 papers integrated
+
+### Papers integrated:
+
+1. **Dromey et al. 2009** (Nat. Phys. 5, 146) — Diffraction-limited performance and focusing of high harmonics from relativistic plasmas
+   - DOI: 10.1038/nphys1158
+   - Path: /home/zhiping/knowledge_base/paper/2009/2009--Diffraction-limited performance and focusing of high harmonics from relativistic plasmas/paper.md
+   - Key content:
+     * First quantitative evidence of diffraction-limited harmonic emission from ROM
+     * Surface smoothing mechanism: electron trajectories average over roughness
+     * Surface denting effects: ponderomotive pressure creates curved wavefront
+     * Intrinsic phase effects: φ_n ∝ (1 - N/N_crit)^(1/2)
+     * ROM vs CWE spatial separation: ROM in narrow on-axis cone, CWE in large angles
+   - Added to: chf-mechanism.md, scaling-laws.md, preplasma-scale-length.md
+
+2. **Nakatsutsumi et al. 2010** (J. Phys.: Conf. Ser. 244, 032008) — Geometrical optimization of an ellipsoidal plasma mirror
+   - DOI: 10.1088/1742-6596/244/3/032008
+   - Path: /home/zhiping/knowledge_base/paper/2010/2010--Geometrical optimization of an ellipsoidal plasma mirror toward tight focusing of ultra-intense laser pulse/paper.md
+   - Key content:
+     * Compact ellipsoidal PM system: f/# = 0.4, <1 cm³ volume
+     * Spot size reduction: 1/5 of standard focusing (f/2.7)
+     * Plasma mirror regime: debris protection + contrast enhancement
+     * Practical route to tight focusing for CHF
+   - Added to: chf-mechanism.md, efficiency-optimization.md
+
+### Wiki pages modified:
+- chf-mechanism.md: Added experimental status section with both papers
+- scaling-laws.md: Added diffraction-limited performance section (Dromey 2009)
+- efficiency-optimization.md: Added ellipsoidal PM focusing section (Nakatsutsumi 2010)
+- preplasma-scale-length.md: Added surface smoothing mechanism section (Dromey 2009)
+
+### Total wiki pages modified: 4
+
+## [2026-06-26] ingest | 11 remaining frontmatter-only papers integrated into wiki content
+
+Systematic integration of papers that were previously only referenced in frontmatter or log entries, but not in the actual wiki page content.
+
+### Papers integrated:
+
+1. **Bulanov et al. 1994** (Phys. Plasmas 1, 745) — ROM concept origin
+   - DOI: 10.1063/1.870766
+   - Key content: Oscillating charge sheet model, plasma resonance saturation, vacuum heating, Bourdier transform
+   - Added to: rom-theory.md (enhanced historical entry)
+
+2. **Lichters et al. 1996** (Phys. Plasmas 3, 3425) — ROM quantitative model
+   - DOI: 10.1063/1.871619
+   - Key content: Cold relativistic fluid equations, LPIC++ code, retarded reflection, selection rules, Bessel function spectra
+   - Added to: rom-theory.md (enhanced historical entry)
+
+3. **von der Linde & Rzązewski 1996** (Appl. Phys. B 63, 499) — Phase modulation model
+   - DOI: 10.1007/BF01828947
+   - Key content: Phase modulation parameter χ, Bessel function spectra, surface oscillation amplitude, p-pol ~45° optimal
+   - Added to: rom-theory.md (enhanced historical entry)
+
+4. **Dollar et al. 2013** (PRL 110, 175002) — Optimal scale length at ultrahigh intensity
+   - DOI: 10.1103/PhysRevLett.110.175002
+   - Key content: L_s,opt = c/ω₀, three regimes (ultrasharp/optimal/too long), self-similarity at S=1
+   - Added to: scaling-laws.md, preplasma-scale-length.md
+
+5. **Gonoskov et al. 2011** (PRE 84, 046403) — RES model
+   - DOI: 10.1103/PhysRevE.84.046403
+   - Key content: Relativistic Electronic Spring model, exponential spectral decay, optimal S~1/2, θ~62°, groove-shaped targets for 10²⁶ W/cm²
+   - Added to: cse-theory.md
+
+6. **Corde et al. 2013** (RMP 85, 1) — Femtosecond x-rays review
+   - DOI: 10.1103/RevModPhys.85.1
+   - Key content: Liénard-Wiechert formalism, synchrotron spectrum, undulator parameter, four x-ray source types
+   - Added to: cse-theory.md
+
+7. **Vincenti et al. 2023** (EPJST) — CRM review and pseudo-spectral PIC
+   - DOI: 10.1140/epjs/s11734-023-00909-2
+   - Key content: CRM paradigm, PSATD codes, PICSAR library, path to Schwinger limit
+   - Added to: chf-mechanism.md
+
+8. **Zhang et al. 2022** (NJP 24, 033038) — Divergence gating
+   - DOI: 10.1088/1367-2630/ac59ec
+   - Key content: Chirped laser divergence gating, sub-50 as mJ IAPs, water-window accessible
+   - Added to: isolation-techniques.md
+
+9. **Kim et al. 2025** (PRR 7, 013216) — Noncollinear gating
+   - DOI: 10.1103/PhysRevResearch.7.013216
+   - Key content: Weak gating pulse (10¹⁹ W/cm²), 399 as IAP, plasma denting diagnostics
+   - Added to: isolation-techniques.md
+
+10. **Riconda et al. 2015** (PPCF 57, 014002) — Plasma amplification
+    - DOI: 10.1088/0741-3335/57/1/014002
+    - Key content: sc-SBS amplification, damage-free plasma optics, combined amplification + focusing to 10²⁰-10²² W/cm²
+    - Added to: efficiency-optimization.md
+
+11. **Krausz & Ivanov 2009** (RMP 81, 163) — Note: DOI 10.1103/RevModPhys.85.1 actually maps to Corde 2013
+    - Corde 2013 was integrated instead (see #6 above)
+
+### Wiki pages modified: 7
+- rom-theory.md: Enhanced Bulanov 1994, Lichters 1996, von der Linde 1996 entries
+- scaling-laws.md: Added Dollar 2013 optimal scale length section
+- preplasma-scale-length.md: Added Dollar 2013 optimal scale length section
+- cse-theory.md: Added RES model (Gonoskov 2011) and synchrotron formalism (Corde 2013)
+- chf-mechanism.md: Added Vincenti 2023 CRM review
+- isolation-techniques.md: Enhanced noncollinear gating (Kim 2025) and divergence gating (Zhang 2022)
+- efficiency-optimization.md: Added Riconda 2015 plasma amplification
+
+### Total wiki pages modified: 7

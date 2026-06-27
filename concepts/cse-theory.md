@@ -130,6 +130,51 @@ For BGP: larger bunch, partially coherent.
 
 > "Depending on the thickness l_s of the radiating electron layer, the radiation can be either coherent, for l_s < τ_g, or incoherent, for l_s > τ_g." — Gonoskov et al., Phys. Rev. E **84**, 046403 (2011), §IV
 
+## RES Model — Relativistic Electronic Spring (Gonoskov 2011)
+
+Gonoskov et al. (2011) identified a new ultrarelativistic regime where the standard oscillating mirror model fails and a **Relativistic Electronic Spring (RES)** model applies.
+
+### Three Regimes (parameterized by S and δ)
+- **OMM regime** (δ << 1): Standard oscillating mirror model valid
+- **RES regime** (δ ~ 1, S < 5): NEW regime, OMM fails — RES model valid
+- **RSIT regime**: Relativistic self-induced transparency
+
+### RES Key Results
+- Layer thickness scales as: L_s ~ S^{-1/3} · a^{-2/3}
+- Generated field amplitude: a_g = a₀ · S/(2·cos³θ) · [β_y/(1+β_x) - sin(θ)] · x_s(t)
+- Spectrum decays EXPONENTIALLY (not power-law like OMM n^{-8/3}): I_k ~ exp(-k/(α·γ³))
+- **Optimal regime**: θ_g ~ 62°, S_g ~ 1/2 (amplitude increase factor a_g/a₀ > 7 at I > 5×10²¹ W/cm²)
+- Physical insight: at (θ_g, S_g), the limit cycle maximizes time electrons spend with β_y ~ 0 → longest coherent emission → maximum giant pulse amplitude
+
+### Groove-Shaped Target for Focusing
+- Focus giant attosecond burst using groove-shaped surface
+- PIC simulation: 2×10²⁶ W/cm² achievable in ~10 nm zone with 10 PW laser
+- High-field zone moves along groove at c/sin(θ)
+
+— doi: 10.1103/PhysRevE.84.046403
+  [KB: /home/zhiping/knowledge_base/paper/2011/2011--Ultrarelativistic nanoplasmonics as a route towards extreme-intensity attosecond pulses]
+
+## Synchrotron Radiation Formalism (Corde 2013)
+
+Corde et al. (2013) provided a comprehensive review of radiation from relativistic electrons in laser-plasma interactions, including the Liénard-Wiechert formalism and synchrotron spectrum.
+
+### General Radiation Formalism
+- Liénard-Wiechert: d²I/(dωdΩ) ∝ |∫ exp(iω[t - n·r(t)/c]) · [n×[(n-β)×β̇]]/(1-β·n)² dt|²
+- Undulator parameter: K = γ·ψ; K << 1 (undulator), K >> 1 (wiggler)
+- Undulator wavelength: λ = (λ_u/2γ²)·(1 + K²/2 + γ²θ²)
+- Critical frequency (wiggler): ω_c = (3/2)·γ³·c/ρ
+- Synchrotron spectrum: S(x) = (9√3/8π)·x·∫_x^∞ K_{5/3}(ξ)dξ
+- Radiated power: P̄ = (πe²c/3ε₀)·γ²·K²/λ_u²
+
+### Four X-Ray Source Types
+1. Betatron radiation — plasma cavity as both accelerator and wiggler
+2. Laser-wakefield + conventional undulator
+3. Nonlinear Thomson scattering
+4. Thomson backscattering (laser beam + laser-accelerated electrons)
+
+— doi: 10.1103/RevModPhys.85.1
+  [KB: /home/zhiping/knowledge_base/paper/2013/2013--Femtosecond x rays from laser-plasma accelerators]
+
 ## CSE as Undulator Radiation
 
 The HHG process can be viewed as an **undulator radiation** process:

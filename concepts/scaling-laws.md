@@ -17,6 +17,14 @@ sources:
     doi: null (tutorial note)
     read: true
     sections: [0.4.3, 0.4.4]
+  - path: /home/zhiping/knowledge_base/paper/2009/2009--Diffraction-limited performance and focusing of high harmonics from relativistic plasmas/paper.md
+    doi: 10.1038/nphys1158
+    read: true
+    sections: [all]
+  - path: /home/zhiping/knowledge_base/paper/2013/
+    doi: 10.1103/PhysRevLett.110.175002
+    read: true
+    sections: [all]
 confidence: high
 ---
 
@@ -141,6 +149,29 @@ Finite plasma gradients modify the scaling substantially:
 **Original paper on preplasma optimization**:
 - F. Dollar, P. Cummings, V. Chvykov, L. Willingale, M. Vargas, V. Yanovsky, C. Zulick, A. Maksimchuk, A. G. R. Thomas, and K. Krushelnick, Phys. Rev. Lett. 110, 175002 (2013)
 
+## Dollar 2013: Optimal Scale Length at Ultrahigh Intensity
+
+Dollar et al. (2013) systematically studied HHG scaling at I > 10²¹ W/cm², finding the optimal preplasma scale length and its physical origin.
+
+### Three Regimes
+- **Ultrasharp** (L_s ~ λ/60): Too steep, very weak harmonics
+- **Optimal** (L_s ~ c/ω₀ ~ 0.2λ): Clear harmonics up to 60th order, best power-law scaling (p ~ 4.3-4.8)
+- **Too long** (L_s > 3λ/4): Parametric instabilities (SRS, TPD) destroy coherence
+
+### Physical Insight
+Balance of two competing effects:
+- Shorter L_s → stronger restoring force, limited Doppler shift
+- Longer L_s → parametric instabilities near n_c/4 absorb laser energy
+
+### Key Result
+- Optimal L_s,opt = c/ω₀ (the relativistic critical density condition S = 1)
+- At relativistic critical density: n_c^Rel ~ n_c · a₀
+- For exponential profiles, optimal dynamics are independent of a₀ (self-similarity)
+
+— doi: 10.1103/PhysRevLett.110.175002
+  [KB: /home/zhiping/knowledge_base/paper/2013/]
+  Abstract: "The optimal scale length for harmonic generation is shown to be L_s = c/ω₀, balancing plasma wave excitation against restoring force strength" 
+
 ## CSE Electron Trajectory Scaling (Cousens 2020)
 
 Cousens et al. (2020) analyzed the detailed electron trajectories at the front surface of opaque plasmas, revealing how the trajectory shape determines the CSE emission characteristics.
@@ -174,6 +205,44 @@ The PM curvature from the preplasma gradient introduces an additional scaling:
 
 — doi: 10.1038/ncomms4403
   [KB: /home/zhiping/knowledge_base/paper/2014/2014--Optical properties of relativistic plasma mirrors]
+
+## Diffraction-Limited Performance (Dromey 2009)
+
+Dromey et al. (2009) demonstrated that harmonics from relativistically oscillating plasma surfaces can achieve **diffraction-limited performance**, which is essential for CHF applications.
+
+### Key Experimental Findings
+
+**Spatial separation of mechanisms**:
+- ROM harmonics: emitted into narrow on-axis cone (~diffraction limit)
+- CWE harmonics: scattered into large angles (off-axis)
+- Clear distinction in angular distribution
+
+**Surface smoothing effect**:
+- Harmonics insensitive to initial surface roughness (φ_r.m.s. up to ~λ_n)
+- Electron trajectories average over small-scale roughness
+- Plasma expansion phase enables additional smoothing
+- Result: smooth relativistic mirror even for rough initial targets
+
+**Surface denting effects**:
+- Ponderomotive pressure creates curved plasma surface
+- Dent depth: ~35 nm (Astra) to ~300 nm (Vulcan)
+- All harmonic orders exhibit constant divergence (curved wavefront signature)
+- Distance to focus: ~80 μm (Vulcan) to ~150 μm (Astra)
+
+**Intrinsic phase effects**:
+- Harmonic phase: φ_n ∝ (1 - N/N_crit)^(1/2)
+- Intensity-dependent phase from ponderomotive pressure
+- Can be controlled by tailoring laser intensity distribution
+
+### Implications for Scaling
+- **Diffraction limit achievable**: θ_n ≈ θ_Laser/n (for smooth surfaces)
+- **Surface roughness not limiting**: smoothing mechanism works for λ_n > φ_r.m.s.
+- **Curved wavefronts**: constant divergence across all harmonic orders
+- **Focusability**: harmonics can be focused to near-diffraction-limited spots
+
+— doi: 10.1038/nphys1158
+  [KB: /home/zhiping/knowledge_base/paper/2009/2009--Diffraction-limited performance and focusing of high harmonics from relativistic plasmas/paper.md]
+  Abstract: "the occurrence of surface smoothing on the scale of the wavelength of the generated harmonics, and plasma denting of the irradiated surface, enables the production of high-quality X-ray beams focused down to the diffraction limit"
 
 ## Summary Table
 
