@@ -17,6 +17,7 @@
 - [[double-foil-target]] — Double-foil CSE in transmission: 18 as single pulse, γ_x ≈ 9, keV photons
 - [[attosecond-lighthouse]] — Lighthouse effect: wavefront rotation for isolated attosecond pulses
 - [[efficiency-optimization]] — Maximizing HHG conversion: DPM t_HDR optimization, 0.17% achieved
+- [[pic-particle-parameters]] — Physically-meaningful particle count metrics: beyond particles-per-cell
 
 ## Entities
 

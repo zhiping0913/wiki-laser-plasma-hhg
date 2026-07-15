@@ -143,4 +143,5 @@ Particle-in-Cell (PIC) codes are the primary computational tool for studying rel
 - [[scaling-laws]] — Results from PIC simulations
 - [[waveform-engineering]] — Genetic algorithm optimization
 - [[efficiency-optimization]] — Simulation-experiment comparison
+- [[pic-particle-parameters]] — Particle count metrics and convergence
 - [[cea-lidyl-group]] — Smilei developers

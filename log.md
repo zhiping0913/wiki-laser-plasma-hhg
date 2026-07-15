@@ -537,3 +537,10 @@ Systematic integration of papers that were previously only referenced in frontma
 - efficiency-optimization.md: Added Riconda 2015 plasma amplification
 
 ### Total wiki pages modified: 7
+
+## [2026-07-15] create | pic-particle-parameters.md
+- Physically-meaningful particle count metrics: macro-particles per nc·λ₀³
+- Derivation of N₁D, N₂D, N₃D from ppc, nc/n₀, and cells/λ
+- Literature survey: no paper explicitly uses nc·λ₀³ unit; related work on particle weight
+- References: EPOCH (10.1088/0741-3335/57/11/113001), Touati (10.1088/1361-6587/ac9016), Turner (10.1063/1.2180687), Vincenti (10.1038/ncomms4403), Debayle (10.1103/PhysRevE.92.053108)
+- Also modified: index.md, pic-codes.md (add links)
